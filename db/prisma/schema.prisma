@@ -1,0 +1,102 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id             Int          @id @default(autoincrement())
+  name           String       @unique
+  description    String?
+  price          Float
+  sku            String       @unique // Stock Keeping Unit
+  stockQuantity  Int          // Available stock
+  sellerId       Int
+  categoryId     Int
+  attributes     Json?        // Dynamic attributes (e.g., color, size)
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  seller         Seller       @relation(fields: [sellerId], references: [id])
+  category       Category     @relation(fields: [categoryId], references: [id])
+  reviews        Review[]
+  images         Image[]      // Relation to images
+  variants       Variant[]    // Relation to product variants
+  specifications Specification? // Relation to product specifications
+}
+
+model Seller {
+  id             Int          @id @default(autoincrement())
+  name           String
+  email          String       @unique
+  phone          String?
+  companyName    String?      // Name of the seller's company
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  products       Product[]
+}
+
+model Category {
+  id             Int          @id @default(autoincrement())
+  name           String       @unique
+  description    String?
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  products       Product[]
+}
+
+model Review {
+  id             Int          @id @default(autoincrement())
+  productId      Int
+  reviewerName   String
+  reviewText     String?
+  rating         Int          // Rating out of 5
+  createdAt      DateTime     @default(now())
+
+  product        Product      @relation(fields: [productId], references: [id])
+}
+
+model Image {
+  id             Int          @id @default(autoincrement())
+  url            String       // URL of the image
+  alt            String?      // Alt text for accessibility
+  productId      Int
+
+  product        Product      @relation(fields: [productId], references: [id])
+}
+
+model Variant {
+  id             Int          @id @default(autoincrement())
+  sku            String       @unique // Stock Keeping Unit for the variant
+  name           String       // Variant name (e.g., "55 inch")
+  price          Float        // Price for the specific variant
+  productId      Int
+
+  product        Product      @relation(fields: [productId], references: [id])
+}
+
+model Specification {
+  id             Int     @id @default(autoincrement())
+  productId      Int     @unique // Ensure one-to-one relationship
+  data           Json    // Key-value pairs for specifications (e.g., JSON format)
+
+  product        Product @relation(fields: [productId], references: [id])
+}
+
+model ContactUs {
+  id             Int          @id @default(autoincrement())
+  email          String
+  subject        String
+  content        String
+  createdAt      DateTime     @default(now())
+}

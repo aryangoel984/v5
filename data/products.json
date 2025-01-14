@@ -1,0 +1,1228 @@
+[
+    {
+      "id": 1,
+      "name": "4K OLED Smart TV",
+      "description": "Experience stunning picture quality and smart features with this 4K OLED TV.",
+      "price": 1499.99,
+      "imageUrl": "https://amstradworld.com/wp-content/uploads/2023/12/Amstrad-AM65UWGTA-WebOS-TV_front.jpg",
+      "videoUrl": "https://example.com/videos/4k-oled-smart-tv-demo.mp4",
+      "createdAt": "2023-01-10T09:00:00Z",
+      "updatedAt": "2023-06-15T14:30:00Z",
+      "categoryId": 1,
+      "category": {
+        "id": 1,
+        "name": "Electronics"
+      },
+      "variants": [
+        {
+          "id": 101,
+          "sku": "TV-OLED-55",
+          "name": "55 inch",
+          "price": 1499.99
+        },
+        {
+          "id": 102,
+          "sku": "TV-OLED-65",
+          "name": "65 inch",
+          "price": 1999.99
+        }
+      ],
+      "images": [
+        {
+          "id": 1001,
+          "url": "https://m.media-amazon.com/images/I/51EXj4BRQaL.jpg",
+          "alt": "4K OLED Smart TV - Front View"
+        },
+        {
+          "id": 1002,
+          "url": "https://amstradworld.com/wp-content/uploads/2023/12/Amstrad-AM65UWGTA-WebOS-TV_front.jpg",
+          "alt": "4K OLED Smart TV - Angle View"
+        },
+        {
+          "id": 1003,
+          "url": "https://amstradworld.com/wp-content/uploads/2023/12/Amstrad-AM65UWGTA-WebOS-TV_front.jpg",
+          "alt": "4K OLED Smart TV - Remote Control"
+        }
+      ],
+      "specifications": {
+        "brand": "TechVision",
+        "model": "OLED-5500X",
+        "screenSize": "55 inches",
+        "resolution": "3840 x 2160 (4K)",
+        "hdrSupport": ["HDR10", "Dolby Vision"],
+        "refreshRate": "120Hz",
+        "smartFeatures": ["Voice Control", "App Store", "Screen Mirroring"],
+        "connectivity": ["Wi-Fi 6", "Bluetooth 5.0", "HDMI 2.1 x 4", "USB 3.0 x 3"],
+        "audioOutput": "40W (2.1 Channel)",
+        "dimensions": "122.8 x 70.6 x 2.3 cm",
+        "weight": "16.8 kg"
+      },
+      "sellerCompany": "ElectroHub Inc."
+    },
+    {
+      "id": 2,
+      "name": "Wireless Noise-Cancelling Headphones",
+      "description": "Immerse yourself in your music with these premium wireless noise-cancelling headphones.",
+      "price": 299.99,
+      "imageUrl": "https://m.media-amazon.com/images/I/51EXj4BRQaL.jpg",
+      "videoUrl": "https://example.com/videos/wireless-headphones-demo.mp4",
+      "createdAt": "2023-02-05T11:30:00Z",
+      "updatedAt": "2023-06-20T16:45:00Z",
+      "categoryId": 1,
+      "category": {
+        "id": 1,
+        "name": "Electronics"
+      },
+      "variants": [
+        {
+          "id": 201,
+          "sku": "WH-NC-BLK",
+          "name": "Black",
+          "price": 299.99
+        },
+        {
+          "id": 202,
+          "sku": "WH-NC-WHT",
+          "name": "White",
+          "price": 299.99
+        },
+        {
+          "id": 203,
+          "sku": "WH-NC-NAVY",
+          "name": "Navy Blue",
+          "price": 309.99
+        }
+      ],
+      "images": [
+        {
+          "id": 2001,
+          "url": "https://m.media-amazon.com/images/I/51EXj4BRQaL.jpg",
+          "alt": "Wireless Noise-Cancelling Headphones - Front View"
+        },
+        {
+          "id": 2002,
+          "url": "https://m.media-amazon.com/images/I/51EXj4BRQaL.jpg",
+          "alt": "Wireless Noise-Cancelling Headphones - Side View"
+        },
+        {
+          "id": 2003,
+          "url": "https://m.media-amazon.com/images/I/51EXj4BRQaL.jpg",
+          "alt": "Wireless Noise-Cancelling Headphones - Folded"
+        }
+      ],
+      "specifications": {
+        "brand": "SoundMaster",
+        "model": "WH-1000XM5",
+        "type": "Over-ear",
+        "wireless": true,
+        "noiseCancelling": true,
+        "battery": "Up to 30 hours",
+        "driver": "40mm",
+        "frequency": "4Hz-40,000Hz",
+        "bluetooth": "5.2",
+        "weight": "250g",
+        "additionalFeatures": ["Touch controls", "Adaptive sound control", "Multipoint connection"]
+      },
+      "sellerCompany": "AudioTech Co."
+    },
+    {
+      "id": 3,
+      "name": "Classic Leather Jacket",
+      "description": "A timeless leather jacket that combines style and durability for a classic look.",
+      "price": 249.99,
+      "imageUrl": "https://hnscraftsmanship.com/wp-content/uploads/2024/05/CLASSIC-LEATHER-JACKET-003-%E2%80%93-BLACK.jpg",
+      "videoUrl": null,
+      "createdAt": "2023-03-15T13:45:00Z",
+      "updatedAt": "2023-06-25T10:20:00Z",
+      "categoryId": 2,
+      "category": {
+        "id": 2,
+        "name": "Apparel"
+      },
+      "variants": [
+        {
+          "id": 301,
+          "sku": "LJ-CL-S-BLK",
+          "name": "Small - Black",
+          "price": 249.99
+        },
+        {
+          "id": 302,
+          "sku": "LJ-CL-M-BLK",
+          "name": "Medium - Black",
+          "price": 249.99
+        },
+        {
+          "id": 303,
+          "sku": "LJ-CL-L-BLK",
+          "name": "Large - Black",
+          "price": 249.99
+        },
+        {
+          "id": 304,
+          "sku": "LJ-CL-XL-BLK",
+          "name": "X-Large - Black",
+          "price": 269.99
+        }
+      ],
+      "images": [
+        {
+          "id": 3001,
+          "url": "https://hnscraftsmanship.com/wp-content/uploads/2024/05/CLASSIC-LEATHER-JACKET-003-%E2%80%93-BLACK.jpg",
+          "alt": "Classic Leather Jacket - Front View"
+        },
+        {
+          "id": 3002,
+          "url": "https://hnscraftsmanship.com/wp-content/uploads/2024/05/CLASSIC-LEATHER-JACKET-003-%E2%80%93-BLACK.jpg",
+          "alt": "Classic Leather Jacket - Back View"
+        },
+        {
+          "id": 3003,
+          "url": "https://hnscraftsmanship.com/wp-content/uploads/2024/05/CLASSIC-LEATHER-JACKET-003-%E2%80%93-BLACK.jpg",
+          "alt": "Classic Leather Jacket - Detail View"
+        }
+      ],
+      "specifications": {
+        "material": "100% Genuine Leather",
+        "lining": "100% Polyester",
+        "closure": "YKK Zipper",
+        "pockets": "2 side pockets, 1 inner pocket",
+        "fit": "Regular fit",
+        "care": "Professional leather clean only",
+        "origin": "Made in Italy"
+      },
+      "sellerCompany": "UrbanStyle Apparel"
+    },
+    {
+      "id": 4,
+      "name": "Smart Fitness Watch",
+      "description": "Track your fitness goals with this feature-packed smart fitness watch.",
+      "price": 199.99,
+      "imageUrl": "https://5.imimg.com/data5/ANDROID/Default/2022/8/IU/QR/QN/148827935/product-jpeg-500x500.jpg",
+      "videoUrl": "https://example.com/videos/smart-fitness-watch-features.mp4",
+      "createdAt": "2023-04-20T08:15:00Z",
+      "updatedAt": "2023-06-30T11:50:00Z",
+      "categoryId": 1,
+      "category": {
+        "id": 1,
+        "name": "Electronics"
+      },
+      "variants": [
+        {
+          "id": 401,
+          "sku": "SFW-BLK",
+          "name": "Black",
+          "price": 199.99
+        },
+        {
+          "id": 402,
+          "sku": "SFW-SLVR",
+          "name": "Silver",
+          "price": 199.99
+        },
+        {
+          "id": 403,
+          "sku": "SFW-ROSE",
+          "name": "Rose Gold",
+          "price": 209.99
+        }
+      ],
+      "images": [
+        {
+          "id": 4001,
+          "url": "https://5.imimg.com/data5/ANDROID/Default/2022/8/IU/QR/QN/148827935/product-jpeg-500x500.jpg",
+          "alt": "Smart Fitness Watch - Front View"
+        },
+        {
+          "id": 4002,
+          "url": "https://5.imimg.com/data5/ANDROID/Default/2022/8/IU/QR/QN/148827935/product-jpeg-500x500.jpg",
+          "alt": "Smart Fitness Watch - Side View"
+        },
+        {
+          "id": 4003,
+          "url": "https://5.imimg.com/data5/ANDROID/Default/2022/8/IU/QR/QN/148827935/product-jpeg-500x500.jpg",
+          "alt": "Smart Fitness Watch - App Interface"
+        }
+      ],
+      "specifications": {
+        "brand": "FitTech",
+        "model": "ProActive 2000",
+        "display": "1.4 inch AMOLED",
+        "resolution": "454 x 454 pixels",
+        "waterResistance": "5 ATM",
+        "sensors": ["Heart rate", "GPS", "Accelerometer", "Gyroscope", "Altimeter"],
+        "battery": "Up to 14 days",
+        "compatibility": "iOS 11.0+ / Android 6.0+",
+        "connectivity": ["Bluetooth 5.0", "Wi-Fi"],
+        "features": ["24/7 heart rate monitoring", "Sleep tracking", "50+ sport modes", "Blood oxygen monitoring"]
+      },
+      "sellerCompany": "FitTech Innovations"
+    },
+    {
+      "id": 5,
+      "name": "Designer Tote Bag",
+      "description": "A stylish and spacious tote bag perfect for work or weekend outings.",
+      "price": 129.99,
+      "imageUrl": "https://i.pinimg.com/736x/08/44/0d/08440d16139a5600db51676c7196ec91.jpg",
+      "videoUrl": null,
+      "createdAt": "2023-05-05T10:00:00Z",
+      "updatedAt": "2023-07-01T09:30:00Z",
+      "categoryId": 3,
+      "category": {
+        "id": 3,
+        "name": "Fashion"
+      },
+      "variants": [
+        {
+          "id": 501,
+          "sku": "DTB-TAN",
+          "name": "Tan",
+          "price": 129.99
+        },
+        {
+          "id": 502,
+          "sku": "DTB-BLK",
+          "name": "Black",
+          "price": 129.99
+        },
+        {
+          "id": 503,
+          "sku": "DTB-NVY",
+          "name": "Navy",
+          "price": 129.99
+        }
+      ],
+      "images": [
+        {
+          "id": 5001,
+          "url": "https://i.pinimg.com/736x/08/44/0d/08440d16139a5600db51676c7196ec91.jpg",
+          "alt": "Designer Tote Bag - Front View"
+        },
+        {
+          "id": 5002,
+          "url": "https://i.pinimg.com/736x/08/44/0d/08440d16139a5600db51676c7196ec91.jpg",
+          "alt": "Designer Tote Bag - Inside View"
+        },
+        {
+          "id": 5003,
+          "url": "https://i.pinimg.com/736x/08/44/0d/08440d16139a5600db51676c7196ec91.jpg",
+          "alt": "Designer Tote Bag - Worn"
+        }
+      ],
+      "specifications": {
+        "material": "Full-grain leather",
+        "dimensions": "40cm x 30cm x 15cm",
+        "handle": "Double top handles, 25cm drop",
+        "closure": "Top zip closure",
+        "interior": "Fabric lining, 1 zip pocket, 2 slip pockets",
+        "exterior": "1 front slip pocket",
+        "hardware": "Gold-tone",
+        "care": "Wipe clean with a soft, dry cloth"
+      },
+      "sellerCompany": "LuxeStyle Accessories"
+    },
+    {
+        "id": 6,
+        "name": "Wireless Earbuds Pro",
+        "description": "Experience crystal-clear audio and noise cancellation with these premium wireless earbuds.",
+        "price": 149.99,
+        "imageUrl": "https://media.croma.com/image/upload/v1674049956/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/258660_0_obhimy.png",
+        "videoUrl": "https://example.com/videos/wireless-earbuds-pro-demo.mp4",
+        "createdAt": "2023-07-10T08:30:00Z",
+        "updatedAt": "2023-07-25T14:15:00Z",
+        "categoryId": 1,
+        "category": {
+        "id": 1,
+        "name": "Electronics"
+        },
+        "variants": [
+        {
+            "id": 601,
+            "sku": "WEP-BLK",
+            "name": "Black",
+            "price": 149.99
+        },
+        {
+            "id": 602,
+            "sku": "WEP-WHT",
+            "name": "White",
+            "price": 149.99
+        },
+        {
+            "id": 603,
+            "sku": "WEP-NAVY",
+            "name": "Navy Blue",
+            "price": 159.99
+        }
+        ],
+        "images": [
+        {
+            "id": 6001,
+            "url": "https://media.croma.com/image/upload/v1674049956/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/258660_0_obhimy.png",
+            "alt": "Wireless Earbuds Pro with Charging Case"
+        },
+        {
+            "id": 6002,
+            "url": "https://media.croma.com/image/upload/v1674049956/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/258660_0_obhimy.png",
+            "alt": "Wireless Earbuds Pro in Ear"
+        },
+        {
+            "id": 6003,
+            "url": "https://media.croma.com/image/upload/v1674049956/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/258660_0_obhimy.png",
+            "alt": "Wireless Earbuds Pro App Interface"
+        }
+        ],
+        "specifications": {
+        "brand": "SoundMaster",
+        "model": "WEP-2000",
+        "batteryLife": "Up to 8 hours (24 hours with charging case)",
+        "connectivity": "Bluetooth 5.2",
+        "noiseCancellation": "Active Noise Cancellation (ANC)",
+        "waterResistance": "IPX4",
+        "driverSize": "11mm",
+        "frequencyResponse": "20Hz - 20kHz",
+        "microphoneType": "Dual beamforming microphones",
+        "weight": "5.4g per earbud, 45g charging case"
+        },
+        "sellerCompany": "AudioTech Co."
+    },
+    {
+        "id": 7,
+        "name": "Smart Home Security Camera",
+        "description": "Keep your home safe with this easy-to-install, Wi-Fi enabled security camera with night vision and two-way audio.",
+        "price": 89.99,
+        "imageUrl": "https://i.ytimg.com/vi/9hXZ7oPpOuk/maxresdefault.jpg",
+        "videoUrl": "https://example.com/videos/smart-home-security-camera-demo.mp4",
+        "createdAt": "2023-08-05T11:45:00Z",
+        "updatedAt": "2023-08-20T09:30:00Z",
+        "categoryId": 1,
+        "category": {
+        "id": 1,
+        "name": "Electronics"
+        },
+        "variants": [
+        {
+            "id": 701,
+            "sku": "SHSC-1080P",
+            "name": "1080p Resolution",
+            "price": 89.99
+        },
+        {
+            "id": 702,
+            "sku": "SHSC-4K",
+            "name": "4K Resolution",
+            "price": 129.99
+        }
+        ],
+        "images": [
+        {
+            "id": 7001,
+            "url": "https://i.ytimg.com/vi/9hXZ7oPpOuk/maxresdefault.jpg",
+            "alt": "Smart Home Security Camera - Front View"
+        },
+        {
+            "id": 7002,
+            "url": "https://i.ytimg.com/vi/9hXZ7oPpOuk/maxresdefault.jpg",
+            "alt": "Smart Home Security Camera - Side View"
+        },
+        {
+            "id": 7003,
+            "url": "https://i.ytimg.com/vi/9hXZ7oPpOuk/maxresdefault.jpg",
+            "alt": "Smart Home Security Camera - App Interface"
+        }
+        ],
+        "specifications": {
+        "brand": "SecureVision",
+        "model": "SV-2000",
+        "resolution": "1080p Full HD",
+        "fieldOfView": "130° wide-angle",
+        "nightVision": "Up to 30 feet",
+        "audioType": "Two-way audio with noise cancellation",
+        "storage": "Cloud storage and local SD card support (up to 128GB)",
+        "connectivity": "2.4GHz Wi-Fi",
+        "powerSource": "AC power with battery backup (up to 12 hours)",
+        "dimensions": "70mm x 70mm x 110mm",
+        "weight": "200g"
+        },
+        "sellerCompany": "SmartHome Innovations"
+    },
+    {
+        "id": 8,
+        "name": "Slim Fit Dress Shirt",
+        "description": "A versatile, comfortable dress shirt perfect for both office and casual wear.",
+        "price": 59.99,
+        "imageUrl": "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/671cf4290409b4021170ea29/1-removebg-preview-3-.png",
+        "videoUrl": null,
+        "createdAt": "2023-09-01T13:20:00Z",
+        "updatedAt": "2023-09-15T10:45:00Z",
+        "categoryId": 2,
+        "category": {
+        "id": 2,
+        "name": "Apparel"
+        },
+        "variants": [
+        {
+            "id": 801,
+            "sku": "SFDS-S-WHT",
+            "name": "Small - White",
+            "price": 59.99
+        },
+        {
+            "id": 802,
+            "sku": "SFDS-M-WHT",
+            "name": "Medium - White",
+            "price": 59.99
+        },
+        {
+            "id": 803,
+            "sku": "SFDS-L-WHT",
+            "name": "Large - White",
+            "price": 59.99
+        },
+        {
+            "id": 804,
+            "sku": "SFDS-XL-WHT",
+            "name": "X-Large - White",
+            "price": 64.99
+        }
+        ],
+        "images": [
+        {
+            "id": 8001,
+            "url": "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/671cf4290409b4021170ea29/1-removebg-preview-3-.png",
+            "alt": "Slim Fit Dress Shirt - Front View"
+        },
+        {
+            "id": 8002,
+            "url": "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/671cf4290409b4021170ea29/1-removebg-preview-3-.png",
+            "alt": "Slim Fit Dress Shirt - Back View"
+        },
+        {
+            "id": 8003,
+            "url": "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/671cf4290409b4021170ea29/1-removebg-preview-3-.png",
+            "alt": "Slim Fit Dress Shirt - Collar Detail"
+        }
+        ],
+        "specifications": {
+        "material": "97% Cotton, 3% Elastane",
+        "fit": "Slim Fit",
+        "collar": "Spread Collar",
+        "cuff": "Convertible Cuff",
+        "closure": "Button Front",
+        "care": "Machine wash cold, Tumble dry low, Iron if needed",
+        "origin": "Imported"
+        },
+        "sellerCompany": "FashionForward Ltd."
+    },
+    {
+        "id": 9,
+        "name": "Leather Crossbody Bag",
+        "description": "A stylish and practical leather crossbody bag, perfect for everyday use.",
+        "price": 79.99,
+        "imageUrl": "https://therealleathercompany.com/cdn/shop/files/leather-cross-body-bags-for-men.webp?v=1691145032&width=3840",
+        "videoUrl": null,
+        "createdAt": "2023-10-05T09:00:00Z",
+        "updatedAt": "2023-10-20T15:30:00Z",
+        "categoryId": 3,
+        "category": {
+        "id": 3,
+        "name": "Fashion"
+        },
+        "variants": [
+        {
+            "id": 901,
+            "sku": "LCB-BLK",
+            "name": "Black",
+            "price": 79.99
+        },
+        {
+            "id": 902,
+            "sku": "LCB-BRN",
+            "name": "Brown",
+            "price": 79.99
+        },
+        {
+            "id": 903,
+            "sku": "LCB-TAN",
+            "name": "Tan",
+            "price": 79.99
+        }
+        ],
+        "images": [
+        {
+            "id": 9001,
+            "url": "https://therealleathercompany.com/cdn/shop/files/leather-cross-body-bags-for-men.webp?v=1691145032&width=3840",
+            "alt": "Leather Crossbody Bag - Front View"
+        },
+        {
+            "id": 9002,
+            "url": "https://therealleathercompany.com/cdn/shop/files/leather-cross-body-bags-for-men.webp?v=1691145032&width=3840",
+            "alt": "Leather Crossbody Bag - Side View"
+        },
+        {
+            "id": 9003,
+            "url": "https://therealleathercompany.com/cdn/shop/files/leather-cross-body-bags-for-men.webp?v=1691145032&width=3840",
+            "alt": "Leather Crossbody Bag - Inside View"
+        }
+        ],
+        "specifications": {
+        "material": "100% Genuine Leather",
+        "dimensions": "22cm x 15cm x 6cm",
+        "strapLength": "Adjustable, up to 140cm",
+        "closure": "Zip-top closure",
+        "interior": "Fabric lining, 1 zip pocket, 2 slip pockets",
+        "exterior": "1 back slip pocket",
+        "hardware": "Gold-tone",
+        "care": "Wipe clean with a soft, dry cloth"
+        },
+        "sellerCompany": "LuxeStyle Accessories"
+    },
+    {
+        "id": 10,
+        "name": "4K Ultra HD Smart TV",
+        "description": "Immerse yourself in stunning 4K resolution and smart features with this cutting-edge TV.",
+        "price": 799.99,
+        "imageUrl": "https://sathya.in/media/90688/catalog/LG%2043%204K%20UHD%20Smart%20TV01.jpg",
+        "videoUrl": "https://example.com/videos/4k-ultra-hd-smart-tv-demo.mp4",
+        "createdAt": "2023-11-10T10:15:00Z",
+        "updatedAt": "2023-11-25T16:45:00Z",
+        "categoryId": 1,
+        "category": {
+        "id": 1,
+        "name": "Electronics"
+        },
+        "variants": [
+        {
+            "id": 1001,
+            "sku": "4K-TV-55",
+            "name": "55 inch",
+            "price": 799.99
+        },
+        {
+            "id": 1002,
+            "sku": "4K-TV-65",
+            "name": "65 inch",
+            "price": 999.99
+        },
+        {
+            "id": 1003,
+            "sku": "4K-TV-75",
+            "name": "75 inch",
+            "price": 1299.99
+        }
+        ],
+        "images": [
+        {
+            "id": 10001,
+            "url": "https://sathya.in/media/90688/catalog/LG%2043%204K%20UHD%20Smart%20TV01.jpg",
+            "alt": "4K Ultra HD Smart TV - Front View"
+        },
+        {
+            "id": 10002,
+            "url": "https://sathya.in/media/90688/catalog/LG%2043%204K%20UHD%20Smart%20TV01.jpg",
+            "alt": "4K Ultra HD Smart TV - Angle View"
+        },
+        {
+            "id": 10003,
+            "url": "https://sathya.in/media/90688/catalog/LG%2043%204K%20UHD%20Smart%20TV01.jpg",
+            "alt": "4K Ultra HD Smart TV - Ports"
+        }
+        ],
+        "specifications": {
+        "brand": "VisionTech",
+        "model": "VT-4K2000",
+        "resolution": "3840 x 2160 (4K)",
+        "hdrSupport": ["HDR10", "Dolby Vision", "HLG"],
+        "refreshRate": "120Hz",
+        "smartFeatures": ["Voice Control", "App Store", "Screen Mirroring"],
+        "operatingSystem": "SmartOS 3.0",
+        "connectivity": ["Wi-Fi 6", "Bluetooth 5.0", "HDMI 2.1 x 4", "USB 3.0 x 3"],
+        "audioOutput": "40W (2.1 Channel with Dolby Atmos)",
+        "dimensions": "122.8 x 71.1 x 2.5 cm (55 inch model)",
+        "weight": "16.7 kg (55 inch model)"
+        },
+        "sellerCompany": "ElectroHub Inc."
+    },
+    {
+        "id": 11,
+        "name": "Smart Thermostat",
+        "description": "Control your home's temperature from anywhere with this energy-efficient smart thermostat.",
+        "price": 179.99,
+        "imageUrl": "https://drawdown.org/sites/default/files/solutions2020/solution_smartthermostat02.jpg",
+        "videoUrl": "https://example.com/videos/smart-thermostat-demo.mp4",
+        "createdAt": "2023-12-01T09:30:00Z",
+        "updatedAt": "2023-12-15T14:45:00Z",
+        "categoryId": 1,
+        "category": {
+          "id": 1,
+          "name": "Electronics"
+        },
+        "variants": [
+          {
+            "id": 1101,
+            "sku": "ST-WHT",
+            "name": "White",
+            "price": 179.99
+          },
+          {
+            "id": 1102,
+            "sku": "ST-BLK",
+            "name": "Black",
+            "price": 179.99
+          }
+        ],
+        "images": [
+          {
+            "id": 11001,
+            "url": "https://drawdown.org/sites/default/files/solutions2020/solution_smartthermostat02.jpg",
+            "alt": "Smart Thermostat - Front View"
+          },
+          {
+            "id": 11002,
+            "url": "https://drawdown.org/sites/default/files/solutions2020/solution_smartthermostat02.jpg",
+            "alt": "Smart Thermostat - Side View"
+          },
+          {
+            "id": 11003,
+            "url": "https://drawdown.org/sites/default/files/solutions2020/solution_smartthermostat02.jpg",
+            "alt": "Smart Thermostat - App Interface"
+          }
+        ],
+        "specifications": {
+          "compatibility": "Works with most 24V heating and cooling systems",
+          "connectivity": "Wi-Fi, Bluetooth",
+          "powerSource": "Hardwired with battery backup",
+          "display": "3.5\" full-color touchscreen",
+          "sensors": ["Temperature", "Humidity", "Occupancy", "Proximity"],
+          "energyStar": "Certified",
+          "dimensions": "3.3 x 3.3 x 1.21 inches",
+          "warranty": "2-year limited warranty"
+        },
+        "sellerCompany": "SmartHome Innovations"
+      },
+      {
+        "id": 12,
+        "name": "Wireless Gaming Mouse",
+        "description": "High-precision wireless gaming mouse with customizable RGB lighting.",
+        "price": 79.99,
+        "imageUrl": "https://images-cdn.ubuy.co.in/634070147988b95a0a4e8268-wireless-gaming-mouse-for-laptop-tsv.jpg",
+        "videoUrl": "https://example.com/videos/wireless-gaming-mouse-demo.mp4",
+        "createdAt": "2023-12-05T11:20:00Z",
+        "updatedAt": "2023-12-20T16:30:00Z",
+        "categoryId": 1,
+        "category": {
+          "id": 1,
+          "name": "Electronics"
+        },
+        "variants": [
+          {
+            "id": 1201,
+            "sku": "WGM-BLK",
+            "name": "Black",
+            "price": 79.99
+          },
+          {
+            "id": 1202,
+            "sku": "WGM-WHT",
+            "name": "White",
+            "price": 84.99
+          }
+        ],
+        "images": [
+          {
+            "id": 12001,
+            "url": "https://images-cdn.ubuy.co.in/634070147988b95a0a4e8268-wireless-gaming-mouse-for-laptop-tsv.jpg",
+            "alt": "Wireless Gaming Mouse - Top View"
+          },
+          {
+            "id": 12002,
+            "url": "https://images-cdn.ubuy.co.in/634070147988b95a0a4e8268-wireless-gaming-mouse-for-laptop-tsv.jpg",
+            "alt": "Wireless Gaming Mouse - Side View"
+          },
+          {
+            "id": 12003,
+            "url": "https://images-cdn.ubuy.co.in/634070147988b95a0a4e8268-wireless-gaming-mouse-for-laptop-tsv.jpg",
+            "alt": "Wireless Gaming Mouse - RGB Lighting"
+          }
+        ],
+        "specifications": {
+          "sensor": "16,000 DPI optical sensor",
+          "buttons": "6 programmable buttons",
+          "connectivity": "2.4GHz wireless, USB receiver",
+          "batteryLife": "Up to 60 hours",
+          "weight": "99g (without cable)",
+          "lighting": "RGB with 16.8 million colors",
+          "compatibility": "Windows, macOS, Linux"
+        },
+        "sellerCompany": "ElectroHub Inc."
+      },
+      {
+        "id": 13,
+        "name": "Wireless Charging Pad",
+        "description": "Fast wireless charging pad compatible with Qi-enabled devices.",
+        "price": 39.99,
+        "imageUrl": "https://www.cnet.com/a/img/resize/8dfd582b861be518dcb968d1f1b6de01ef114961/hub/2023/02/28/9da2e9c7-d07d-45cb-89d1-18c7013249e5/anker-315-wireless-charger.png?auto=webp&fit=crop&height=900&width=1200",
+        "videoUrl": null,
+        "createdAt": "2023-12-10T13:45:00Z",
+        "updatedAt": "2023-12-25T10:15:00Z",
+        "categoryId": 1,
+        "category": {
+          "id": 1,
+          "name": "Electronics"
+        },
+        "variants": [
+          {
+            "id": 1301,
+            "sku": "WCP-BLK",
+            "name": "Black",
+            "price": 39.99
+          },
+          {
+            "id": 1302,
+            "sku": "WCP-WHT",
+            "name": "White",
+            "price": 39.99
+          }
+        ],
+        "images": [
+          {
+            "id": 13001,
+            "url": "https://www.cnet.com/a/img/resize/8dfd582b861be518dcb968d1f1b6de01ef114961/hub/2023/02/28/9da2e9c7-d07d-45cb-89d1-18c7013249e5/anker-315-wireless-charger.png?auto=webp&fit=crop&height=900&width=1200",
+            "alt": "Wireless Charging Pad - Top View"
+          },
+          {
+            "id": 13002,
+            "url": "https://www.cnet.com/a/img/resize/8dfd582b861be518dcb968d1f1b6de01ef114961/hub/2023/02/28/9da2e9c7-d07d-45cb-89d1-18c7013249e5/anker-315-wireless-charger.png?auto=webp&fit=crop&height=900&width=1200",
+            "alt": "Wireless Charging Pad - Side View"
+          },
+          {
+            "id": 13003,
+            "url": "https://www.cnet.com/a/img/resize/8dfd582b861be518dcb968d1f1b6de01ef114961/hub/2023/02/28/9da2e9c7-d07d-45cb-89d1-18c7013249e5/anker-315-wireless-charger.png?auto=webp&fit=crop&height=900&width=1200",
+            "alt": "Wireless Charging Pad - In Use"
+          }
+        ],
+        "specifications": {
+          "chargingSpeed": "Up to 15W fast charging",
+          "compatibility": "Qi-enabled devices",
+          "inputPower": "QC 2.0/3.0 adapter (not included)",
+          "safetyFeatures": ["Overcharge protection", "Temperature control"],
+          "ledIndicator": "Yes",
+          "dimensions": "100mm x 100mm x 10mm",
+          "cableLength": "1.5m USB-C cable included"
+        },
+        "sellerCompany": "AudioTech Co."
+      },
+      {
+        "id": 14,
+        "name": "Casual Denim Jacket",
+        "description": "Classic denim jacket perfect for layering in any season.",
+        "price": 69.99,
+        "imageUrl": "https://images-cdn.ubuy.co.in/6572f61f217b104b982f3ea9-doslavida-men-39-s-denim-jacket.jpg",
+        "videoUrl": null,
+        "createdAt": "2023-12-15T10:00:00Z",
+        "updatedAt": "2023-12-30T15:30:00Z",
+        "categoryId": 2,
+        "category": {
+          "id": 2,
+          "name": "Apparel"
+        },
+        "variants": [
+          {
+            "id": 1401,
+            "sku": "CDJ-S-LBL",
+            "name": "Small - Light Blue",
+            "price": 69.99
+          },
+          {
+            "id": 1402,
+            "sku": "CDJ-M-LBL",
+            "name": "Medium - Light Blue",
+            "price": 69.99
+          },
+          {
+            "id": 1403,
+            "sku": "CDJ-L-LBL",
+            "name": "Large - Light Blue",
+            "price": 69.99
+          },
+          {
+            "id": 1404,
+            "sku": "CDJ-XL-LBL",
+            "name": "X-Large - Light Blue",
+            "price": 74.99
+          }
+        ],
+        "images": [
+          {
+            "id": 14001,
+            "url": "https://images-cdn.ubuy.co.in/6572f61f217b104b982f3ea9-doslavida-men-39-s-denim-jacket.jpg",
+            "alt": "Casual Denim Jacket - Front View"
+          },
+          {
+            "id": 14002,
+            "url": "https://images-cdn.ubuy.co.in/6572f61f217b104b982f3ea9-doslavida-men-39-s-denim-jacket.jpg",
+            "alt": "Casual Denim Jacket - Back View"
+          },
+          {
+            "id": 14003,
+            "url": "https://images-cdn.ubuy.co.in/6572f61f217b104b982f3ea9-doslavida-men-39-s-denim-jacket.jpg",
+            "alt": "Casual Denim Jacket - Detail View"
+          }
+        ],
+        "specifications": {
+          "material": "100% Cotton Denim",
+          "fit": "Regular fit",
+          "closure": "Button front",
+          "pockets": "2 chest pockets, 2 side pockets",
+          "wash": "Machine washable",
+          "origin": "Imported"
+        },
+        "sellerCompany": "FashionForward Ltd."
+      },
+      {
+        "id": 15,
+        "name": "Leather Wallet",
+        "description": "Sleek and durable leather wallet with RFID blocking technology.",
+        "price": 49.99,
+        "imageUrl": "https://www.wildhorn.in/cdn/shop/products/915NPMLKRDL._SL1500.jpg?v=1703661630&width=1946",
+        "videoUrl": null,
+        "createdAt": "2023-12-20T14:30:00Z",
+        "updatedAt": "2024-01-05T11:45:00Z",
+        "categoryId": 3,
+        "category": {
+          "id": 3,
+          "name": "Fashion"
+        },
+        "variants": [
+          {
+            "id": 1501,
+            "sku": "LW-BLK",
+            "name": "Black",
+            "price": 49.99
+          },
+          {
+            "id": 1502,
+            "sku": "LW-BRN",
+            "name": "Brown",
+            "price": 49.99
+          }
+        ],
+        "images": [
+          {
+            "id": 15001,
+            "url": "https://www.wildhorn.in/cdn/shop/products/915NPMLKRDL._SL1500.jpg?v=1703661630&width=1946",
+            "alt": "Leather Wallet - Closed"
+          },
+          {
+            "id": 15002,
+            "url": "https://www.wildhorn.in/cdn/shop/products/915NPMLKRDL._SL1500.jpg?v=1703661630&width=1946",
+            "alt": "Leather Wallet - Open"
+          },
+          {
+            "id": 15003,
+            "url": "https://www.wildhorn.in/cdn/shop/products/915NPMLKRDL._SL1500.jpg?v=1703661630&width=1946",
+            "alt": "Leather Wallet - Detail"
+          }
+        ],
+        "specifications": {
+          "material": "Genuine leather",
+          "dimensions": "4.5\" x 3.5\" x 0.5\"",
+          "cardSlots": "6 card slots",
+          "billCompartments": "2 full-length bill compartments",
+          "idWindow": "1 ID window",
+          "rfidBlocking": "Yes",
+          "packaging": "Gift box included"
+        },
+        "sellerCompany": "LuxeStyle Accessories"
+      },
+      {
+        "id": 16,
+        "name": "Smart Door Lock",
+        "description": "Keyless entry smart door lock with fingerprint and PIN code access.",
+        "price": 199.99,
+        "imageUrl": "https://leccygenesis.com/cdn/shop/products/1_a73ac313-201d-4be3-a4ad-6a332c13cd75_1024x1024.jpg?v=1669810857",
+        "videoUrl": "https://example.com/videos/smart-door-lock-demo.mp4",
+        "createdAt": "2023-12-25T09:15:00Z",
+        "updatedAt": "2024-01-10T13:20:00Z",
+        "categoryId": 1,
+        "category": {
+          "id": 1,
+          "name": "Electronics"
+        },
+        "variants": [
+          {
+            "id": 1601,
+            "sku": "SDL-SLV",
+            "name": "Silver",
+            "price": 199.99
+          },
+          {
+            "id": 1602,
+            "sku": "SDL-BLK",
+            "name": "Black",
+            "price": 209.99
+          }
+        ],
+        "images": [
+          {
+            "id": 16001,
+            "url": "https://leccygenesis.com/cdn/shop/products/1_a73ac313-201d-4be3-a4ad-6a332c13cd75_1024x1024.jpg?v=1669810857",
+            "alt": "Smart Door Lock - Front View"
+          },
+          {
+            "id": 16002,
+            "url": "https://leccygenesis.com/cdn/shop/products/1_a73ac313-201d-4be3-a4ad-6a332c13cd75_1024x1024.jpg?v=1669810857",
+            "alt": "Smart Door Lock - Back View"
+          },
+          {
+            "id": 16003,
+            "url": "https://leccygenesis.com/cdn/shop/products/1_a73ac313-201d-4be3-a4ad-6a332c13cd75_1024x1024.jpg?v=1669810857",
+            "alt": "Smart Door Lock - App Interface"
+          }
+        ],
+        "specifications": {
+          "unlockMethods": ["Fingerprint", "PIN code", "App", "Physical key"],
+          "fingerprints": "Stores up to 100 fingerprints",
+          "pinCodes": "Supports up to 150 user codes",
+          "connectivity": "Bluetooth, Wi-Fi",
+          "powerSource": "4 AA batteries (included)",
+          "batteryLife": "Up to 1 year",
+          "compatibility": "Works with Alexa and Google Assistant",
+          "security": "256-bit AES encryption"
+        },
+        "sellerCompany": "SmartHome Innovations"
+      },
+      {
+        "id": 17,
+        "name": "Portable Bluetooth Speaker",
+        "description": "Waterproof portable Bluetooth speaker with 360-degree sound and long battery life.",
+        "price": 89.99,
+        "imageUrl": "https://avstore.in/cdn/shop/products/AVStore-JBL-boombox2-1.jpg?v=1615208720&width=2048",
+        "videoUrl": "https://example.com/videos/portable-bluetooth-speaker-demo.mp4",
+        "createdAt": "2023-12-30T11:00:00Z",
+        "updatedAt": "2024-01-15T16:45:00Z",
+        "categoryId": 1,
+        "category": {
+          "id": 1,
+          "name": "Electronics"
+        },
+        "variants": [
+          {
+            "id": 1701,
+            "sku": "PBS-BLK",
+            "name": "Black",
+            "price": 89.99
+          },
+          {
+            "id": 1702,
+            "sku": "PBS-BLU",
+            "name": "Blue",
+            "price": 89.99
+          },
+          {
+            "id": 1703,
+            "sku": "PBS-RED",
+            "name": "Red",
+            "price": 89.99
+          }
+        ],
+        "images": [
+          {
+            "id": 17001,
+            "url": "https://avstore.in/cdn/shop/products/AVStore-JBL-boombox2-1.jpg?v=1615208720&width=2048",
+            "alt": "Portable Bluetooth Speaker - Front View"
+          },
+          {
+            "id": 17002,
+            "url": "https://avstore.in/cdn/shop/products/AVStore-JBL-boombox2-1.jpg?v=1615208720&width=2048",
+            "alt": "Portable Bluetooth Speaker - Side View"
+          },
+          {
+            "id": 17003,
+            "url": "https://avstore.in/cdn/shop/products/AVStore-JBL-boombox2-1.jpg?v=1615208720&width=2048",
+            "alt": "Portable Bluetooth Speaker - Top View"
+          }
+        ],
+        "specifications": {
+          "bluetoothVersion": "5.0",
+          "batteryLife": "Up to 20 hours",
+          "waterproofRating": "IPX7",
+          "powerOutput": "30W",
+          "frequency": "60Hz - 20kHz",
+          "chargingTime": "4 hours",
+          "dimensions": "8.5 x 3.5 x 3.5 inches",
+          "weight": "2.2 lbs"
+        },
+        "sellerCompany": "AudioTech Co."
+      },
+      {
+        "id": 18,
+        "name": "Wireless Keyboard and Mouse Combo",
+        "description": "Ergonomic wireless keyboard and mouse set for enhanced productivity.",
+        "price": 59.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/61PvucMrBvL._AC_UF1000,1000_QL80_.jpg",
+        "videoUrl": null,
+        "createdAt": "2024-01-05T08:30:00Z",
+        "updatedAt": "2024-01-20T14:15:00Z",
+        "categoryId": 1,
+        "category": {
+          "id": 1,
+          "name": "Electronics"
+        },
+        "variants": [
+          {
+            "id": 1801,
+            "sku": "WKMC-BLK",
+            "name": "Black",
+            "price": 59.99
+          },
+          {
+            "id": 1802,
+            "sku": "WKMC-WHT",
+            "name": "White",
+            "price": 59.99
+          }
+        ],
+        "images": [
+          {
+            "id": 18001,
+            "url": "https://m.media-amazon.com/images/I/61PvucMrBvL._AC_UF1000,1000_QL80_.jpg",
+            "alt": "Wireless Keyboard and Mouse Combo - Full Set"
+          },
+          {
+            "id": 18002,
+            "url": "https://m.media-amazon.com/images/I/61PvucMrBvL._AC_UF1000,1000_QL80_.jpg",
+            "alt": "Wireless Keyboard and Mouse Combo - Keyboard"
+          },
+          {
+            "id": 18003,
+            "url": "https://m.media-amazon.com/images/I/61PvucMrBvL._AC_UF1000,1000_QL80_.jpg",
+            "alt": "Wireless Keyboard and Mouse Combo - Mouse"
+          }
+        ],
+        "specifications": {
+          "keyboardLayout": "Full-size with numeric keypad",
+          "keyboardBatteryLife": "Up to 24 months",
+          "mouseSensor": "High-precision optical sensor",
+          "mouseBatteryLife": "Up to 12 months",
+          "wirelessRange": "Up to 33 feet (10 meters)",
+          "compatibility": "Windows, macOS, Chrome OS",
+          "connectivity": "2.4GHz wireless (USB receiver)"
+        },
+        "sellerCompany": "ElectroHub Inc."
+      },
+      {
+        "id": 19,
+        "name": "Leather Messenger Bag",
+        "description": "Stylish and spacious leather messenger bag for work or travel.",
+        "price": 129.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/91mCrfzTxyL._AC_UY1000_.jpg",
+        "videoUrl": null,
+        "createdAt": "2024-01-10T12:45:00Z",
+        "updatedAt": "2024-01-25T09:30:00Z",
+        "categoryId": 3,
+        "category": {
+          "id": 3,
+          "name": "Fashion"
+        },
+        "variants": [
+          {
+            "id": 1901,
+            "sku": "LMB-BRN",
+            "name": "Brown",
+            "price": 129.99
+          },
+          {
+            "id": 1902,
+            "sku": "LMB-BLK",
+            "name": "Black",
+            "price": 129.99
+          }
+        ],
+        "images": [
+          {
+            "id": 19001,
+            "url": "https://m.media-amazon.com/images/I/91mCrfzTxyL._AC_UY1000_.jpg",
+            "alt": "Leather Messenger Bag - Front View"
+          },
+          {
+            "id": 19002,
+            "url": "https://m.media-amazon.com/images/I/91mCrfzTxyL._AC_UY1000_.jpg",
+            "alt": "Leather Messenger Bag - Open View"
+          },
+          {
+            "id": 19003,
+            "url": "https://m.media-amazon.com/images/I/91mCrfzTxyL._AC_UY1000_.jpg",
+            "alt": "Leather Messenger Bag - Worn"
+          }
+        ],
+        "specifications": {
+          "material": "Full-grain leather",
+          "dimensions": "15\" x 11\" x 4\"",
+          "laptopCompartment": "Fits up to 15\" laptop",
+          "pockets": "3 interior pockets, 2 exterior pockets",
+          "strap": "Adjustable shoulder strap",
+          "closure": "Magnetic snap and zipper",
+          "lining": "Durable cotton canvas"
+        },
+        "sellerCompany": "LuxeStyle Accessories"
+      },
+      {
+        "id": 20,
+        "name": "Smart Light Bulb Set",
+        "description": "Set of 4 color-changing smart light bulbs compatible with voice assistants.",
+        "price": 79.99,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7VEtLMMpIqjJOn68ClKqwk_5o3FJST3-QA&s",
+        "videoUrl": "https://example.com/videos/smart-light-bulb-set-demo.mp4",
+        "createdAt": "2024-01-15T10:00:00Z",
+        "updatedAt": "2024-01-30T15:20:00Z",
+        "categoryId": 1,
+        "category": {
+          "id": 1,
+          "name": "Electronics"
+        },
+        "variants": [
+          {
+            "id": 2001,
+            "sku": "SLB-4PK",
+            "name": "4-Pack",
+            "price": 79.99
+          },
+          {
+            "id": 2002,
+            "sku": "SLB-2PK",
+            "name": "2-Pack",
+            "price": 44.99
+          }
+        ],
+        "images": [
+          {
+            "id": 20001,
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7VEtLMMpIqjJOn68ClKqwk_5o3FJST3-QA&s",
+            "alt": "Smart Light Bulb Set - Package"
+          },
+          {
+            "id": 20002,
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7VEtLMMpIqjJOn68ClKqwk_5o3FJST3-QA&s",
+            "alt": "Smart Light Bulb Set - Single Bulb"
+          },
+          {
+            "id": 20003,
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7VEtLMMpIqjJOn68ClKqwk_5o3FJST3-QA&s",
+            "alt": "Smart Light Bulb Set - App Interface"
+          }
+        ],
+        "specifications": {
+          "wattage": "9W (60W equivalent)",
+          "lumens": "800 lumens",
+          "colorTemperature": "2700K-6500K",
+          "colorOptions": "16 million colors",
+          "compatibility": "Works with Alexa, Google Assistant, Apple HomeKit",
+          "connectivity": "Wi-Fi 2.4GHz",
+          "lifespan": "25,000 hours",
+          "baseType": "E26"
+        },
+        "sellerCompany": "SmartHome Innovations"
+      }
+      
+]
