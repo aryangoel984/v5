@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Electronics",
+      "description": "Latest gadgets and devices",
+      "createdAt": "2025-01-04T15:58:12.372Z",
+      "updatedAt": "2025-01-04T15:58:12.372Z"
+    },
+    {
+      "id": 2,
+      "name": "Apparel",
+      "description": "Trendy and stylish clothing",
+      "createdAt": "2025-01-04T15:58:12.372Z",
+      "updatedAt": "2025-01-04T15:58:12.372Z"
+    },
+    {
+      "id": 3,
+      "name": "FnB",
+      "description": "Food and beverages",
+      "createdAt": "2025-01-04T15:58:12.372Z",
+      "updatedAt": "2025-01-04T15:58:12.372Z"
+    }
+  ]
+  

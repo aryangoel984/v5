@@ -1,0 +1,142 @@
+[
+        {
+            "id": 1,
+            "email": "user1@example.com",
+            "subject": "Query about product 30",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 2,
+            "email": "user2@example.com",
+            "subject": "Query about product 85",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 3,
+            "email": "user3@example.com",
+            "subject": "Query about product 48",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 4,
+            "email": "user4@example.com",
+            "subject": "Query about product 31",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 5,
+            "email": "user5@example.com",
+            "subject": "Query about product 47",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 6,
+            "email": "user6@example.com",
+            "subject": "Query about product 99",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 7,
+            "email": "user7@example.com",
+            "subject": "Query about product 32",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 8,
+            "email": "user8@example.com",
+            "subject": "Query about product 46",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 9,
+            "email": "user9@example.com",
+            "subject": "Query about product 24",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 10,
+            "email": "user10@example.com",
+            "subject": "Query about product 34",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 11,
+            "email": "user11@example.com",
+            "subject": "Query about product 50",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 12,
+            "email": "user12@example.com",
+            "subject": "Query about product 42",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 13,
+            "email": "user13@example.com",
+            "subject": "Query about product 39",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 14,
+            "email": "user14@example.com",
+            "subject": "Query about product 72",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 15,
+            "email": "user15@example.com",
+            "subject": "Query about product 72",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 16,
+            "email": "user16@example.com",
+            "subject": "Query about product 18",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 17,
+            "email": "user17@example.com",
+            "subject": "Query about product 87",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 18,
+            "email": "user18@example.com",
+            "subject": "Query about product 59",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 19,
+            "email": "user19@example.com",
+            "subject": "Query about product 14",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        },
+        {
+            "id": 20,
+            "email": "user20@example.com",
+            "subject": "Query about product 6",
+            "content": "I would like to know more details about this product.",
+            "createdAt": "2025-01-04T15:58:12Z"
+        }
+    ]

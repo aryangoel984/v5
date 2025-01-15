@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Office Supplies Co.",
+    "email": "info@officesupplies.com",
+    "phone": "123-456-7890",
+    "companyName": "Office Supplies Co.",
+    "createdAt": "2025-01-01T10:00:00.000Z",
+    "updatedAt": "2025-01-10T14:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Gamer's Paradise",
+    "email": "support@gamersparadise.com",
+    "phone": "987-654-3210",
+    "companyName": "Gamer's Paradise Inc.",
+    "createdAt": "2025-01-03T11:15:00.000Z",
+    "updatedAt": "2025-01-12T09:45:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "AudioPlus",
+    "email": "contact@audioplus.com",
+    "phone": "555-123-4567",
+    "companyName": "AudioPlus LLC",
+    "createdAt": "2025-01-05T08:20:00.000Z",
+    "updatedAt": "2025-01-13T15:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Home Essentials",
+    "email": "info@homeessentials.com",
+    "phone": "444-555-6666",
+    "companyName": "Home Essentials Co.",
+    "createdAt": "2025-01-07T09:45:00.000Z",
+    "updatedAt": "2025-01-13T13:30:00.000Z"
+  },
+  {
+    "id": 5,
+    "name": "EcoGoods",
+    "email": "hello@ecogoods.com",
+    "phone": "333-777-8888",
+    "companyName": "EcoGoods",
+    "createdAt": "2025-01-08T10:10:00.000Z",
+    "updatedAt": "2025-01-14T11:00:00.000Z"
+  }
+]

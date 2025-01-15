@@ -1,0 +1,1662 @@
+[
+    {
+        "id": 1,
+        "name": "Yoga Mat 1",
+        "description": "High-quality yoga mat with advanced features.",
+        "price": 270.53,
+        "sku": "YOGA001",
+        "stockQuantity": 72,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-28T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 2,
+        "name": "Fiction Book 2",
+        "description": "High-quality fiction book with advanced features.",
+        "price": 205.56,
+        "sku": "FICT002",
+        "stockQuantity": 75,
+        "sellerId": 5,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-11-07T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 3,
+        "name": "Fiction Book 3",
+        "description": "High-quality fiction book with advanced features.",
+        "price": 626.27,
+        "sku": "FICT003",
+        "stockQuantity": 11,
+        "sellerId": 5,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-24T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 4,
+        "name": "Science Book 4",
+        "description": "High-quality science book with advanced features.",
+        "price": 846.44,
+        "sku": "SCIE004",
+        "stockQuantity": 30,
+        "sellerId": 2,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-09T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 5,
+        "name": "Headphones 5",
+        "description": "High-quality headphones with advanced features.",
+        "price": 663.86,
+        "sku": "HEAD005",
+        "stockQuantity": 56,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-10-30T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 6,
+        "name": "Lamp 6",
+        "description": "High-quality lamp with advanced features.",
+        "price": 196.65,
+        "sku": "LAMP006",
+        "stockQuantity": 22,
+        "sellerId": 3,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-14T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 7,
+        "name": "Headphones 7",
+        "description": "High-quality headphones with advanced features.",
+        "price": 312.81,
+        "sku": "HEAD007",
+        "stockQuantity": 39,
+        "sellerId": 1,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-19T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 8,
+        "name": "Smartphone 8",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 432.75,
+        "sku": "SMAR008",
+        "stockQuantity": 82,
+        "sellerId": 5,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-12-26T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 9,
+        "name": "T-shirt 9",
+        "description": "High-quality t-shirt with advanced features.",
+        "price": 711.26,
+        "sku": "T-SH009",
+        "stockQuantity": 63,
+        "sellerId": 3,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-12-18T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 10,
+        "name": "T-shirt 10",
+        "description": "High-quality t-shirt with advanced features.",
+        "price": 958.47,
+        "sku": "T-SH010",
+        "stockQuantity": 12,
+        "sellerId": 2,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-11-17T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 11,
+        "name": "Yoga Mat 11",
+        "description": "High-quality yoga mat with advanced features.",
+        "price": 115.75,
+        "sku": "YOGA011",
+        "stockQuantity": 47,
+        "sellerId": 3,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-09-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 12,
+        "name": "Shoes 12",
+        "description": "High-quality shoes with advanced features.",
+        "price": 465.34,
+        "sku": "SHOE012",
+        "stockQuantity": 72,
+        "sellerId": 5,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-11-23T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 13,
+        "name": "Fiction Book 13",
+        "description": "High-quality fiction book with advanced features.",
+        "price": 695.57,
+        "sku": "FICT013",
+        "stockQuantity": 91,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-11T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 14,
+        "name": "Fiction Book 14",
+        "description": "High-quality fiction book with advanced features.",
+        "price": 972.64,
+        "sku": "FICT014",
+        "stockQuantity": 54,
+        "sellerId": 1,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-12-12T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 15,
+        "name": "Lamp 15",
+        "description": "High-quality lamp with advanced features.",
+        "price": 909.5,
+        "sku": "LAMP015",
+        "stockQuantity": 95,
+        "sellerId": 1,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-10-15T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 16,
+        "name": "Jeans 16",
+        "description": "High-quality jeans with advanced features.",
+        "price": 342.89,
+        "sku": "JEAN016",
+        "stockQuantity": 71,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-14T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 17,
+        "name": "Sofa 17",
+        "description": "High-quality sofa with advanced features.",
+        "price": 878.39,
+        "sku": "SOFA017",
+        "stockQuantity": 88,
+        "sellerId": 2,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-10-01T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 18,
+        "name": "Cooking Pot 18",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 425.27,
+        "sku": "COOK018",
+        "stockQuantity": 72,
+        "sellerId": 5,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-10-06T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 19,
+        "name": "Lamp 19",
+        "description": "High-quality lamp with advanced features.",
+        "price": 759.5,
+        "sku": "LAMP019",
+        "stockQuantity": 12,
+        "sellerId": 1,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-12-15T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 20,
+        "name": "Smartphone 20",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 19.01,
+        "sku": "SMAR020",
+        "stockQuantity": 97,
+        "sellerId": 3,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-09-28T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 21,
+        "name": "Sofa 21",
+        "description": "High-quality sofa with advanced features.",
+        "price": 939.97,
+        "sku": "SOFA021",
+        "stockQuantity": 34,
+        "sellerId": 4,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-10-01T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 22,
+        "name": "T-shirt 22",
+        "description": "High-quality t-shirt with advanced features.",
+        "price": 29.87,
+        "sku": "T-SH022",
+        "stockQuantity": 82,
+        "sellerId": 5,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-10-24T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 23,
+        "name": "Fiction Book 23",
+        "description": "High-quality fiction book with advanced features.",
+        "price": 545.99,
+        "sku": "FICT023",
+        "stockQuantity": 85,
+        "sellerId": 3,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-12-02T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 24,
+        "name": "Fiction Book 24",
+        "description": "High-quality fiction book with advanced features.",
+        "price": 677.79,
+        "sku": "FICT024",
+        "stockQuantity": 48,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-12-21T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 25,
+        "name": "Cooking Pot 25",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 234.74,
+        "sku": "COOK025",
+        "stockQuantity": 39,
+        "sellerId": 3,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-12-05T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 26,
+        "name": "Lamp 26",
+        "description": "High-quality lamp with advanced features.",
+        "price": 218.38,
+        "sku": "LAMP026",
+        "stockQuantity": 65,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-09-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 27,
+        "name": "Laptop 27",
+        "description": "High-quality laptop with advanced features.",
+        "price": 484.62,
+        "sku": "LAPT027",
+        "stockQuantity": 96,
+        "sellerId": 1,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-19T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 28,
+        "name": "Shoes 28",
+        "description": "High-quality shoes with advanced features.",
+        "price": 478.94,
+        "sku": "SHOE028",
+        "stockQuantity": 59,
+        "sellerId": 3,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-11-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 29,
+        "name": "Jeans 29",
+        "description": "High-quality jeans with advanced features.",
+        "price": 355.8,
+        "sku": "JEAN029",
+        "stockQuantity": 48,
+        "sellerId": 2,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-11-27T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 30,
+        "name": "Laptop 30",
+        "description": "High-quality laptop with advanced features.",
+        "price": 821.03,
+        "sku": "LAPT030",
+        "stockQuantity": 10,
+        "sellerId": 1,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-09-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 31,
+        "name": "T-shirt 31",
+        "description": "High-quality t-shirt with advanced features.",
+        "price": 354.63,
+        "sku": "T-SH031",
+        "stockQuantity": 88,
+        "sellerId": 2,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-17T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 32,
+        "name": "Backpack 32",
+        "description": "High-quality backpack with advanced features.",
+        "price": 35.19,
+        "sku": "BACK032",
+        "stockQuantity": 11,
+        "sellerId": 1,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 33,
+        "name": "Chair 33",
+        "description": "High-quality chair with advanced features.",
+        "price": 732.48,
+        "sku": "CHAI033",
+        "stockQuantity": 18,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-12-03T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 34,
+        "name": "Chair 34",
+        "description": "High-quality chair with advanced features.",
+        "price": 292.45,
+        "sku": "CHAI034",
+        "stockQuantity": 49,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-09-27T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 35,
+        "name": "Smartphone 35",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 246.95,
+        "sku": "SMAR035",
+        "stockQuantity": 96,
+        "sellerId": 1,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-25T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 36,
+        "name": "Yoga Mat 36",
+        "description": "High-quality yoga mat with advanced features.",
+        "price": 575.71,
+        "sku": "YOGA036",
+        "stockQuantity": 34,
+        "sellerId": 1,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-26T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 37,
+        "name": "Sofa 37",
+        "description": "High-quality sofa with advanced features.",
+        "price": 540.08,
+        "sku": "SOFA037",
+        "stockQuantity": 98,
+        "sellerId": 2,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-10-12T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 38,
+        "name": "Cooking Pot 38",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 767.15,
+        "sku": "COOK038",
+        "stockQuantity": 63,
+        "sellerId": 5,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-01T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 39,
+        "name": "Science Book 39",
+        "description": "High-quality science book with advanced features.",
+        "price": 773.11,
+        "sku": "SCIE039",
+        "stockQuantity": 52,
+        "sellerId": 5,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-31T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 40,
+        "name": "Lamp 40",
+        "description": "High-quality lamp with advanced features.",
+        "price": 100.82,
+        "sku": "LAMP040",
+        "stockQuantity": 82,
+        "sellerId": 2,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-10-09T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 41,
+        "name": "Jeans 41",
+        "description": "High-quality jeans with advanced features.",
+        "price": 481.9,
+        "sku": "JEAN041",
+        "stockQuantity": 55,
+        "sellerId": 1,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-22T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 42,
+        "name": "Lamp 42",
+        "description": "High-quality lamp with advanced features.",
+        "price": 331.74,
+        "sku": "LAMP042",
+        "stockQuantity": 37,
+        "sellerId": 4,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-10-11T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 43,
+        "name": "Fiction Book 43",
+        "description": "High-quality fiction book with advanced features.",
+        "price": 689.79,
+        "sku": "FICT043",
+        "stockQuantity": 28,
+        "sellerId": 1,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-10T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 44,
+        "name": "Cooking Pot 44",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 780.96,
+        "sku": "COOK044",
+        "stockQuantity": 99,
+        "sellerId": 4,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-12-11T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 45,
+        "name": "Shoes 45",
+        "description": "High-quality shoes with advanced features.",
+        "price": 716.89,
+        "sku": "SHOE045",
+        "stockQuantity": 37,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-13T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 46,
+        "name": "Dumbbells 46",
+        "description": "High-quality dumbbells with advanced features.",
+        "price": 894.51,
+        "sku": "DUMB046",
+        "stockQuantity": 29,
+        "sellerId": 3,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-11-03T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 47,
+        "name": "Chair 47",
+        "description": "High-quality chair with advanced features.",
+        "price": 200.97,
+        "sku": "CHAI047",
+        "stockQuantity": 80,
+        "sellerId": 5,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-15T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 48,
+        "name": "Dumbbells 48",
+        "description": "High-quality dumbbells with advanced features.",
+        "price": 108.01,
+        "sku": "DUMB048",
+        "stockQuantity": 78,
+        "sellerId": 5,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-12-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 49,
+        "name": "Smartphone 49",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 217.12,
+        "sku": "SMAR049",
+        "stockQuantity": 21,
+        "sellerId": 5,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-12-01T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 50,
+        "name": "Smartphone 50",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 313.58,
+        "sku": "SMAR050",
+        "stockQuantity": 15,
+        "sellerId": 3,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-12-22T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 51,
+        "name": "Smartphone 51",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 253.57,
+        "sku": "SMAR051",
+        "stockQuantity": 68,
+        "sellerId": 2,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-23T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 52,
+        "name": "Smartphone 52",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 685.96,
+        "sku": "SMAR052",
+        "stockQuantity": 36,
+        "sellerId": 1,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-12-10T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 53,
+        "name": "Sofa 53",
+        "description": "High-quality sofa with advanced features.",
+        "price": 469.57,
+        "sku": "SOFA053",
+        "stockQuantity": 99,
+        "sellerId": 2,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-09-30T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 54,
+        "name": "Sofa 54",
+        "description": "High-quality sofa with advanced features.",
+        "price": 207.53,
+        "sku": "SOFA054",
+        "stockQuantity": 26,
+        "sellerId": 2,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-11-25T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 55,
+        "name": "Fiction Book 55",
+        "description": "High-quality fiction book with advanced features.",
+        "price": 109.4,
+        "sku": "FICT055",
+        "stockQuantity": 31,
+        "sellerId": 1,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-08T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 56,
+        "name": "Table 56",
+        "description": "High-quality table with advanced features.",
+        "price": 370.39,
+        "sku": "TABL056",
+        "stockQuantity": 26,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-01T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 57,
+        "name": "Smartphone 57",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 495.2,
+        "sku": "SMAR057",
+        "stockQuantity": 15,
+        "sellerId": 2,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-24T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 58,
+        "name": "Headphones 58",
+        "description": "High-quality headphones with advanced features.",
+        "price": 11.71,
+        "sku": "HEAD058",
+        "stockQuantity": 81,
+        "sellerId": 5,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-12-15T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 59,
+        "name": "Cooking Pot 59",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 650.47,
+        "sku": "COOK059",
+        "stockQuantity": 24,
+        "sellerId": 2,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-10-31T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 60,
+        "name": "Chair 60",
+        "description": "High-quality chair with advanced features.",
+        "price": 253.16,
+        "sku": "CHAI060",
+        "stockQuantity": 64,
+        "sellerId": 3,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-09-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 61,
+        "name": "Dumbbells 61",
+        "description": "High-quality dumbbells with advanced features.",
+        "price": 475.03,
+        "sku": "DUMB061",
+        "stockQuantity": 37,
+        "sellerId": 1,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-12-26T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 62,
+        "name": "Chair 62",
+        "description": "High-quality chair with advanced features.",
+        "price": 313.79,
+        "sku": "CHAI062",
+        "stockQuantity": 33,
+        "sellerId": 4,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-28T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 63,
+        "name": "Laptop 63",
+        "description": "High-quality laptop with advanced features.",
+        "price": 685.77,
+        "sku": "LAPT063",
+        "stockQuantity": 61,
+        "sellerId": 3,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-11-28T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 64,
+        "name": "Shoes 64",
+        "description": "High-quality shoes with advanced features.",
+        "price": 371.73,
+        "sku": "SHOE064",
+        "stockQuantity": 41,
+        "sellerId": 5,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-12-20T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 65,
+        "name": "T-shirt 65",
+        "description": "High-quality t-shirt with advanced features.",
+        "price": 285.8,
+        "sku": "T-SH065",
+        "stockQuantity": 86,
+        "sellerId": 5,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-20T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 66,
+        "name": "Laptop 66",
+        "description": "High-quality laptop with advanced features.",
+        "price": 628.87,
+        "sku": "LAPT066",
+        "stockQuantity": 86,
+        "sellerId": 3,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-09-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 67,
+        "name": "Lamp 67",
+        "description": "High-quality lamp with advanced features.",
+        "price": 291.36,
+        "sku": "LAMP067",
+        "stockQuantity": 51,
+        "sellerId": 2,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-12-27T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 68,
+        "name": "Chair 68",
+        "description": "High-quality chair with advanced features.",
+        "price": 974.01,
+        "sku": "CHAI068",
+        "stockQuantity": 62,
+        "sellerId": 1,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-11-10T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 69,
+        "name": "Table 69",
+        "description": "High-quality table with advanced features.",
+        "price": 980.89,
+        "sku": "TABL069",
+        "stockQuantity": 55,
+        "sellerId": 2,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-11-10T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 70,
+        "name": "Dumbbells 70",
+        "description": "High-quality dumbbells with advanced features.",
+        "price": 718.17,
+        "sku": "DUMB070",
+        "stockQuantity": 94,
+        "sellerId": 2,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-11-14T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 71,
+        "name": "Laptop 71",
+        "description": "High-quality laptop with advanced features.",
+        "price": 425.13,
+        "sku": "LAPT071",
+        "stockQuantity": 39,
+        "sellerId": 1,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 72,
+        "name": "Yoga Mat 72",
+        "description": "High-quality yoga mat with advanced features.",
+        "price": 750.29,
+        "sku": "YOGA072",
+        "stockQuantity": 35,
+        "sellerId": 1,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-11-08T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 73,
+        "name": "Jeans 73",
+        "description": "High-quality jeans with advanced features.",
+        "price": 209.26,
+        "sku": "JEAN073",
+        "stockQuantity": 38,
+        "sellerId": 2,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-10-09T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 74,
+        "name": "Backpack 74",
+        "description": "High-quality backpack with advanced features.",
+        "price": 709.47,
+        "sku": "BACK074",
+        "stockQuantity": 32,
+        "sellerId": 2,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-12-29T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 75,
+        "name": "Shoes 75",
+        "description": "High-quality shoes with advanced features.",
+        "price": 550.98,
+        "sku": "SHOE075",
+        "stockQuantity": 21,
+        "sellerId": 1,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-12-05T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 76,
+        "name": "Laptop 76",
+        "description": "High-quality laptop with advanced features.",
+        "price": 264.91,
+        "sku": "LAPT076",
+        "stockQuantity": 45,
+        "sellerId": 2,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-12-16T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 77,
+        "name": "Fitness Tracker 77",
+        "description": "High-quality fitness tracker with advanced features.",
+        "price": 816.31,
+        "sku": "FITN077",
+        "stockQuantity": 84,
+        "sellerId": 1,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2025-01-04T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 78,
+        "name": "Smartphone 78",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 246.36,
+        "sku": "SMAR078",
+        "stockQuantity": 80,
+        "sellerId": 1,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-04T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 79,
+        "name": "Headphones 79",
+        "description": "High-quality headphones with advanced features.",
+        "price": 394.39,
+        "sku": "HEAD079",
+        "stockQuantity": 89,
+        "sellerId": 1,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-24T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 80,
+        "name": "Jeans 80",
+        "description": "High-quality jeans with advanced features.",
+        "price": 217.54,
+        "sku": "JEAN080",
+        "stockQuantity": 89,
+        "sellerId": 5,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-11-18T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 81,
+        "name": "Laptop 81",
+        "description": "High-quality laptop with advanced features.",
+        "price": 526.47,
+        "sku": "LAPT081",
+        "stockQuantity": 37,
+        "sellerId": 5,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-11-18T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 82,
+        "name": "Shoes 82",
+        "description": "High-quality shoes with advanced features.",
+        "price": 599.35,
+        "sku": "SHOE082",
+        "stockQuantity": 88,
+        "sellerId": 3,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-12-10T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 83,
+        "name": "Dumbbells 83",
+        "description": "High-quality dumbbells with advanced features.",
+        "price": 434.3,
+        "sku": "DUMB083",
+        "stockQuantity": 57,
+        "sellerId": 5,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-11-24T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 84,
+        "name": "Shoes 84",
+        "description": "High-quality shoes with advanced features.",
+        "price": 20.05,
+        "sku": "SHOE084",
+        "stockQuantity": 91,
+        "sellerId": 5,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-11-20T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 85,
+        "name": "Sofa 85",
+        "description": "High-quality sofa with advanced features.",
+        "price": 383.23,
+        "sku": "SOFA085",
+        "stockQuantity": 81,
+        "sellerId": 2,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-07T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 86,
+        "name": "Jeans 86",
+        "description": "High-quality jeans with advanced features.",
+        "price": 652.35,
+        "sku": "JEAN086",
+        "stockQuantity": 89,
+        "sellerId": 4,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-31T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 87,
+        "name": "Headphones 87",
+        "description": "High-quality headphones with advanced features.",
+        "price": 430.96,
+        "sku": "HEAD087",
+        "stockQuantity": 26,
+        "sellerId": 2,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-12-14T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 88,
+        "name": "Headphones 88",
+        "description": "High-quality headphones with advanced features.",
+        "price": 275.71,
+        "sku": "HEAD088",
+        "stockQuantity": 70,
+        "sellerId": 1,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-06T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 89,
+        "name": "Cooking Pot 89",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 349.26,
+        "sku": "COOK089",
+        "stockQuantity": 11,
+        "sellerId": 4,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-12-02T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 90,
+        "name": "Yoga Mat 90",
+        "description": "High-quality yoga mat with advanced features.",
+        "price": 795.43,
+        "sku": "YOGA090",
+        "stockQuantity": 28,
+        "sellerId": 2,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-01T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 91,
+        "name": "Cooking Pot 91",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 938.68,
+        "sku": "COOK091",
+        "stockQuantity": 35,
+        "sellerId": 2,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-10-31T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 92,
+        "name": "Smartphone 92",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 323.53,
+        "sku": "SMAR092",
+        "stockQuantity": 42,
+        "sellerId": 3,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-11-26T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 93,
+        "name": "Chair 93",
+        "description": "High-quality chair with advanced features.",
+        "price": 354.03,
+        "sku": "CHAI093",
+        "stockQuantity": 58,
+        "sellerId": 2,
+        "categoryId": 3,
+        "attributes": {
+            "material": "Wood",
+            "dimensions": "40x40 inches",
+            "color": "Natural"
+        },
+        "createdAt": "2024-10-08T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 94,
+        "name": "Backpack 94",
+        "description": "High-quality backpack with advanced features.",
+        "price": 768.13,
+        "sku": "BACK094",
+        "stockQuantity": 17,
+        "sellerId": 5,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-12-03T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 95,
+        "name": "Cooking Pot 95",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 769.7,
+        "sku": "COOK095",
+        "stockQuantity": 88,
+        "sellerId": 2,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-12-21T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 96,
+        "name": "Cooking Pot 96",
+        "description": "High-quality cooking pot with advanced features.",
+        "price": 176.94,
+        "sku": "COOK096",
+        "stockQuantity": 55,
+        "sellerId": 1,
+        "categoryId": 1,
+        "attributes": {
+            "brand": "GenericTech",
+            "color": "Black",
+            "feature": "5G Enabled"
+        },
+        "createdAt": "2024-12-08T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 97,
+        "name": "Dumbbells 97",
+        "description": "High-quality dumbbells with advanced features.",
+        "price": 392.2,
+        "sku": "DUMB097",
+        "stockQuantity": 62,
+        "sellerId": 1,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-10-01T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 98,
+        "name": "Sofa 98",
+        "description": "High-quality sofa with advanced features.",
+        "price": 494.33,
+        "sku": "SOFA098",
+        "stockQuantity": 26,
+        "sellerId": 4,
+        "categoryId": 5,
+        "attributes": {
+            "weight": "5kg",
+            "type": "Rubber-Coated"
+        },
+        "createdAt": "2024-11-16T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 99,
+        "name": "Smartphone 99",
+        "description": "High-quality smartphone with advanced features.",
+        "price": 708.73,
+        "sku": "SMAR099",
+        "stockQuantity": 23,
+        "sellerId": 2,
+        "categoryId": 2,
+        "attributes": {
+            "size": "M",
+            "material": "Cotton",
+            "style": "Casual"
+        },
+        "createdAt": "2024-10-25T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    },
+    {
+        "id": 100,
+        "name": "Fitness Tracker 100",
+        "description": "High-quality fitness tracker with advanced features.",
+        "price": 994.36,
+        "sku": "FITN100",
+        "stockQuantity": 77,
+        "sellerId": 2,
+        "categoryId": 4,
+        "attributes": {
+            "author": "Unknown",
+            "genre": "Fiction"
+        },
+        "createdAt": "2024-12-19T15:58:12Z",
+        "updatedAt": "2025-01-04T15:58:12Z"
+    }
+]
