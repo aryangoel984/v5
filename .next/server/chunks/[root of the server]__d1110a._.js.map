@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 63, "column": 0}, "map": {"version":3,"sources":["file:///Users/dhruv/Desktop/ONDC/v10/app/api/GET/route.ts"],"sourcesContent":["import { PrismaClient } from '@prisma/client'\nimport { NextResponse } from 'next/server'\n\nconst prisma = new PrismaClient()\n\nexport async function GET() {\n  try {\n    const sellers = await prisma.seller.findMany({\n      include: { products: true }, \n    })\n    return NextResponse.json(sellers, { status: 200 })\n  } catch (error) {\n    return NextResponse.json({ error: 'Error fetching sellers' }, { status: 500 })\n  }\n}\n"],"names":[],"mappings":";;;AAAA;AACA;;;AAEA,MAAM,SAAS,IAAI,6HAAA,CAAA,eAAY;AAExB,eAAe;IACpB,IAAI;QACF,MAAM,UAAU,MAAM,OAAO,MAAM,CAAC,QAAQ,CAAC;YAC3C,SAAS;gBAAE,UAAU;YAAK;QAC5B;QACA,OAAO,+PAAA,CAAA,eAAY,CAAC,IAAI,CAAC,SAAS;YAAE,QAAQ;QAAI;IAClD,EAAE,OAAO,OAAO;QACd,OAAO,+PAAA,CAAA,eAAY,CAAC,IAAI,CAAC;YAAE,OAAO;QAAyB,GAAG;YAAE,QAAQ;QAAI;IAC9E;AACF"}},
+    {"offset": {"line": 89, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
