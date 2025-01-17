@@ -1,46 +1,40 @@
 import { PrismaClient } from '@prisma/client'
 import { NextResponse } from 'next/server'
 
-interface dataProps {
-  data: {
-    name: string
-    description: string
-    price: number
-    sku: string
-    stockQuantity: number
-    sellerId: number
-    categoryId: number
-    attributes: string
-    createdAt: Date
-    updatedAt: Date
-    seller: {
-      connect: {
-        id: number
-      }
-    category: {
-      connect: {
-        id: number
-      }
-    }
-    reviews: {
-      create: []
-    }
-    images: {
-      create: []
-    }
-    }
-  }
-}
-
 const prisma = new PrismaClient()
 
-export async function POST(request : any) {
+export async function POST(request) {
   try {
     const body = await request.json()
-    const { name, description, price, sku, stockQuantity, sellerId, categoryId, attributes, createdAt, updatedAt, seller, category, reviews, images } = body
+    const {
+      name,
+      description,
+      price,
+      sku,
+      stockQuantity,
+      sellerId,
+      categoryId,
+      attributes,
+      createdAt,
+      updatedAt,
+    } = body
 
-    const newSeller = await prisma.product.create({
-      data : {
+    // Input validation
+    if (!name || !sku || !price || !sellerId || !categoryId) {
+      return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
+    }
+
+    // Check if seller and category exist
+    const sellerExists = await prisma.seller.findUnique({ where: { id: sellerId } })
+    const categoryExists = await prisma.category.findUnique({ where: { id: categoryId } })
+
+    if (!sellerExists || !categoryExists) {
+      return NextResponse.json({ error: 'Invalid sellerId or categoryId' }, { status: 404 })
+    }
+
+    // Create the product
+    const newProduct = await prisma.product.create({
+      data: {
         name,
         description,
         price,
@@ -48,30 +42,18 @@ export async function POST(request : any) {
         stockQuantity,
         sellerId,
         categoryId,
-        attributes,
-        createdAt,
-        updatedAt,
-        seller: {
-          connect: {
-            id: sellerId,
-          },
-        },
-        category: {
-          connect: {
-            id: categoryId,
-          },
-        },
-        reviews: {
-          create: [],
-        },
-        images: {
-          create: [],
-        },
-
+        attributes, // Stored as JSON
+        createdAt: createdAt ? new Date(createdAt) : undefined,
+        updatedAt: updatedAt ? new Date(updatedAt) : undefined,
       },
     })
-    return NextResponse.json(newSeller, { status: 201 })
+
+    return NextResponse.json(newProduct, { status: 201 })
   } catch (error) {
-    return NextResponse.json({ error: 'Error creating seller' }, { status: 500 })
+    console.error('Error creating product:', error)
+    return NextResponse.json(
+      { error: error.message || 'Error creating product' },
+      { status: 500 }
+    )
   }
 }

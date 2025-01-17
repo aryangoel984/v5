@@ -16,8 +16,8 @@ export const SidebarDemo = ({ links, children }: { links: any[]; children: React
         "h-screen"
       )}
     >
-      <Sidebar open={open} setOpen={setOpen}>
-        <SidebarBody className="justify-between gap-10">
+      <Sidebar open={open} setOpen={setOpen} className="sticky top-0 h-screen">
+        <SidebarBody className="justify-between gap-10 h-full">
           <div className="flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
             {open ? <Logo /> : <LogoIcon />}
             <div className="mt-8 flex flex-col gap-2">
@@ -45,8 +45,8 @@ export const SidebarDemo = ({ links, children }: { links: any[]; children: React
           </div>
         </SidebarBody>
       </Sidebar>
-      <div className="p-2 md:p-10 rounded-tl-2xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 flex flex-col gap-2 flex-1 w-full h-full">
-      <main className="flex-1">{children}</main>
+      <div className="p-2 md:p-10 rounded-tl-2xl border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-900 flex flex-col gap-2 flex-1 w-full h-full overflow-y-auto">
+        <main className="flex-1">{children}</main>
       </div>
     </div>
   );

@@ -2,14 +2,15 @@
 
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import ProductCategory from './steps/product-category'
 import FileUpload from './steps/file-upload'
+import SpecificationsVariants from './steps/specification-varients'
 import ReviewSubmit from './steps/review-submit'
 
 const steps = [
-  { title: 'Product Category', component: ProductCategory },
-  { title: 'File Upload', component: FileUpload },
+  // { title: 'Product Category', component: ProductCategory },
+  { title: 'Product Details', component: FileUpload },
+  { title: 'Specifications & Variants', component: SpecificationsVariants },
   { title: 'Review and Submit', component: ReviewSubmit },
 ]
 
@@ -18,7 +19,11 @@ export default function ProductCatalogueUploadForm() {
   const [formData, setFormData] = useState({
     category: '',
     subcategory: '',
-    file: null,
+    images: [],
+    productName: '',
+    productDescription: '',
+    specifications: [{ type: '', description: '' }],
+    variants: [{ sku: '', name: '', price: '' }],
   })
 
   const handleNext = () => {
@@ -29,7 +34,7 @@ export default function ProductCatalogueUploadForm() {
     setCurrentStep((prev) => Math.max(prev - 1, 0))
   }
 
-  const handleInputChange = (field: string, value: string | File | null) => {
+  const handleInputChange = (field: string, value: any) => {
     setFormData((prev) => ({ ...prev, [field]: value }))
   }
 
@@ -42,22 +47,18 @@ export default function ProductCatalogueUploadForm() {
   const CurrentStepComponent = steps[currentStep].component
 
   return (
-    <Card className="w-full max-w-lg mx-auto">
-      <CardHeader>
-        <CardTitle>{steps[currentStep].title}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <CurrentStepComponent formData={formData} handleInputChange={handleInputChange} />
-      </CardContent>
-      <CardFooter className="flex justify-between">
+    <div className="w-full max-w-4xl mx-auto space-y-6">
+      <h2 className="text-2xl font-bold">{steps[currentStep].title}</h2>
+      <CurrentStepComponent formData={formData} handleInputChange={handleInputChange} />
+      <div className="flex justify-between">
         <Button onClick={handlePrevious} disabled={currentStep === 0}>Previous</Button>
         {currentStep === steps.length - 1 ? (
           <Button onClick={handleSubmit}>Submit</Button>
         ) : (
           <Button onClick={handleNext}>Next</Button>
         )}
-      </CardFooter>
-    </Card>
+      </div>
+    </div>
   )
 }
 

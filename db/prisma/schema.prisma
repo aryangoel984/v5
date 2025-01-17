@@ -23,7 +23,7 @@ model Product {
   stockQuantity  Int          // Available stock
   sellerId       Int
   categoryId     Int
-  attributes     Json?        // Dynamic attributes (e.g., color, size)
+  attributes     Json?        // Dynamic attributes (e.g., color, size) // ** No Need for Attribute as already using specification and varients 
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
 
