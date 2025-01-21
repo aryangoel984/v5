@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Plus, Trash2, Upload } from 'lucide-react'
 import Image from "next/image"
+import { Textarea } from '../ui/textarea'
 
 export default function FileUpload({ formData, handleInputChange }) {
   const [images, setImages] = useState<string[]>([])
@@ -59,7 +60,6 @@ export default function FileUpload({ formData, handleInputChange }) {
           <Label className="text-lg font-semibold">
             Product Images<span className="text-red-500">*</span>
           </Label>
-          <span className="text-sm text-gray-500">Make your fashion products look more attractive with 3:4 size photos.</span>
         </div>
         <div className="grid grid-cols-4 gap-4">
           {images.map((image, index) => (
@@ -106,7 +106,7 @@ export default function FileUpload({ formData, handleInputChange }) {
       </div>
 
       {/* Product Video */}
-      <div className="space-y-4">
+      {/* <div className="space-y-4">
         <Label className="text-lg font-semibold">Product Video</Label>
         <div className="text-sm text-gray-500">Size Max: 30MB, Resolution:1×1, 10-60 sec, Format: MP4</div>
         <div className="border-2 border-dashed rounded-lg p-8 flex flex-col items-center justify-center">
@@ -116,7 +116,7 @@ export default function FileUpload({ formData, handleInputChange }) {
             <Input type="file" accept="video/mp4" className="hidden" />
           </label>
         </div>
-      </div>
+      </div> */}
 
       {/* Product Name */}
       <div className="space-y-4">
@@ -139,12 +139,30 @@ export default function FileUpload({ formData, handleInputChange }) {
           Product Description<span className="text-red-500">*</span>
         </Label>
         <div className="text-sm text-gray-500">Add a detailed description of your product.</div>
-        <Input
+        <Textarea
           id="productDescription"
+          rows={7}
           placeholder="Product Description ..."
           className="w-full"
           value={formData.productDescription || ''}
           onChange={(e) => handleInputChange('productDescription', e.target.value)}
+        />
+      </div>
+
+      {/* Stock Quantity */}
+      <div className="space-y-4">
+        <Label htmlFor="stockQuantity" className="text-lg font-semibold">
+          Stock Quantity<span className="text-red-500">*</span>
+        </Label>
+        <div className="text-sm text-gray-500">Enter the available quantity for this product.</div>
+        <Input
+          id="stockQuantity"
+          type="number"
+          placeholder="Enter stock quantity"
+          className="w-full"
+          value={formData.stockQuantity || ''}
+          onChange={(e) => handleInputChange('stockQuantity', e.target.value)}
+          min="0"
         />
       </div>
 

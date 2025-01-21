@@ -625,6 +625,10 @@ body {
   pointer-events: auto;
 }
 
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -721,10 +725,6 @@ body {
   top: 50%;
 }
 
-.left-0 {
-  left: 0;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -808,10 +808,6 @@ body {
   margin-top: 2rem;
 }
 
-.ml-64 {
-  margin-left: 16rem;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -834,14 +830,6 @@ body {
 
 .aspect-\[3\/4\] {
   aspect-ratio: 3 / 4;
-}
-
-.aspect-\[9\/16\] {
-  aspect-ratio: 9 / 16;
-}
-
-.aspect-\[16\/9\] {
-  aspect-ratio: 16 / 9;
 }
 
 .h-10 {
@@ -920,16 +908,8 @@ body {
   min-height: 100vh;
 }
 
-.w-1\/3 {
-  width: 33.3333%;
-}
-
 .w-2 {
   width: .5rem;
-}
-
-.w-2\/3 {
-  width: 66.6667%;
 }
 
 .w-24 {
@@ -968,10 +948,6 @@ body {
   width: 100%;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
 .min-w-0 {
   min-width: 0;
 }
@@ -982,6 +958,10 @@ body {
 
 .min-w-\[var\(--radix-select-trigger-width\)\] {
   min-width: var(--radix-select-trigger-width);
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .max-w-4xl {
@@ -1035,6 +1015,16 @@ body {
 .rotate-90 {
   --tw-rotate: 90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: 1s linear infinite spin;
 }
 
 .cursor-default {
@@ -1127,14 +1117,6 @@ body {
 
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1231,14 +1213,6 @@ body {
 
 .border-b {
   border-bottom-width: 1px;
-}
-
-.border-r {
-  border-right-width: 1px;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .border-dashed {
@@ -1527,11 +1501,6 @@ body {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 
 .text-card-foreground {
@@ -1889,9 +1858,43 @@ body {
   border-color: hsl(var(--muted) / .4);
 }
 
+.group.toaster .group-\[\.toaster\]\:border-border {
+  border-color: hsl(var(--border));
+}
+
+.group.toast .group-\[\.toast\]\:bg-muted {
+  background-color: hsl(var(--muted));
+}
+
+.group.toast .group-\[\.toast\]\:bg-primary {
+  background-color: hsl(var(--primary));
+}
+
+.group.toaster .group-\[\.toaster\]\:bg-background {
+  background-color: hsl(var(--background));
+}
+
 .group.destructive .group-\[\.destructive\]\:text-red-300 {
   --tw-text-opacity: 1;
   color: rgb(252 165 165 / var(--tw-text-opacity, 1));
+}
+
+.group.toast .group-\[\.toast\]\:text-muted-foreground {
+  color: hsl(var(--muted-foreground));
+}
+
+.group.toast .group-\[\.toast\]\:text-primary-foreground {
+  color: hsl(var(--primary-foreground));
+}
+
+.group.toaster .group-\[\.toaster\]\:text-foreground {
+  color: hsl(var(--foreground));
+}
+
+.group.toaster .group-\[\.toaster\]\:shadow-lg {
+  --tw-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #0000001a;
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .group.destructive .group-\[\.destructive\]\:hover\:border-destructive\/30:hover {

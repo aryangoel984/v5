@@ -1,6 +1,14 @@
-
+import {
+  ClerkProvider,
+  SignInButton,
+  SignedIn,
+  SignedOut,
+  UserButton
+} from '@clerk/nextjs'
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "sonner"
+import { SWRConfig } from "swr"
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -23,9 +31,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ClerkProvider>
     <html lang="en" suppressHydrationWarning>
       <body
-      >
+>
+
+        
         <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -34,5 +45,27 @@ export default function RootLayout({
         {children}
       </body>
     </html>
+    </ClerkProvider>
   );
 }
+
+
+// import './globals.css'
+// import { ClerkProvider, SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+// import type { AppProps } from 'next/app'
+
+// function MyApp({ Component, pageProps }: AppProps) {
+//   return (
+//     <ClerkProvider {...pageProps}>
+//       <SignedOut>
+//         <SignInButton />
+//       </SignedOut>
+//       <SignedIn>
+//         <UserButton />
+//       </SignedIn>
+//       <Component {...pageProps} />
+//     </ClerkProvider>
+//   )
+// }
+
+// export default MyApp

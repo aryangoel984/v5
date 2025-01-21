@@ -1,11 +1,16 @@
-import { PrismaClient } from '@prisma/client'
-import { NextResponse } from 'next/server'
+import { PrismaClient } from '@prisma/client';
+import { NextResponse } from 'next/server';
 
-const prisma = new PrismaClient()
-
-export async function POST(request) {
+const prisma = new PrismaClient();
+export async function POST(request: Request) {
   try {
-    const body = await request.json()
+    console.log('Request Headers:', request.headers);
+
+    // Attempt to parse the request body
+    const body = await request.json();
+    console.log('Received Payload:', body);
+
+    // Extract fields
     const {
       name,
       description,
@@ -14,25 +19,43 @@ export async function POST(request) {
       stockQuantity,
       sellerId,
       categoryId,
-      attributes,
       createdAt,
       updatedAt,
-    } = body
+    } = body;
 
-    // Input validation
-    if (!name || !sku || !price || !sellerId || !categoryId) {
-      return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
+    // Validate required fields
+    if (!name || !sku || price === undefined || !sellerId || !categoryId) {
+      console.error('Validation Error: Missing required fields');
+      return NextResponse.json(
+        { error: 'Missing required fields' },
+        { status: 400 }
+      );
     }
 
-    // Check if seller and category exist
-    const sellerExists = await prisma.seller.findUnique({ where: { id: sellerId } })
-    const categoryExists = await prisma.category.findUnique({ where: { id: categoryId } })
-
-    if (!sellerExists || !categoryExists) {
-      return NextResponse.json({ error: 'Invalid sellerId or categoryId' }, { status: 404 })
+    // Check for related entities in the database
+    const sellerExists = await prisma.seller.findUnique({
+      where: { id: sellerId },
+    });
+    if (!sellerExists) {
+      console.error('Error: Seller not found');
+      return NextResponse.json(
+        { error: 'Seller not found' },
+        { status: 404 }
+      );
     }
 
-    // Create the product
+    const categoryExists = await prisma.category.findUnique({
+      where: { id: categoryId },
+    });
+    if (!categoryExists) {
+      console.error('Error: Category not found');
+      return NextResponse.json(
+        { error: 'Category not found' },
+        { status: 404 }
+      );
+    }
+
+    // Attempt to create the product
     const newProduct = await prisma.product.create({
       data: {
         name,
@@ -42,18 +65,19 @@ export async function POST(request) {
         stockQuantity,
         sellerId,
         categoryId,
-        attributes, // Stored as JSON
         createdAt: createdAt ? new Date(createdAt) : undefined,
         updatedAt: updatedAt ? new Date(updatedAt) : undefined,
       },
-    })
+    });
 
-    return NextResponse.json(newProduct, { status: 201 })
+    console.log('Product Created:', newProduct);
+
+    return NextResponse.json(newProduct, { status: 201 });
   } catch (error) {
-    console.error('Error creating product:', error)
+    console.error('Error Details:', error);
     return NextResponse.json(
-      { error: error.message || 'Error creating product' },
+      { error: 'Invalid JSON payload or internal server error' },
       { status: 500 }
-    )
+    );
   }
 }

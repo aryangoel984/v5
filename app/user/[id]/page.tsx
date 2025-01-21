@@ -1,7 +1,9 @@
+"use server"
+
 import React from "react";
 import { SidebarDemo } from "@/components/sidebar";
-import productsData from "@/data/products.json";
-import ProductCarousel from "@/components/sellerCatalogue";
+
+import {ProductCarousel} from "@/components/sellerCatalogue";
 import { IconArrowLeft, IconBrandTabler, IconSettings, IconUserBolt } from "@tabler/icons-react";
 // import { useRouter } from "next/router";
 
@@ -20,7 +22,7 @@ const DashboardWithSidebar = () => {
     <SidebarDemo links={links}>
       <div className="max-w-lg mx-auto mt-6">
         <h1 className="text-3xl font-bold mb-4">Your Products | User ID:</h1>
-        <ProductCarousel products={productsData} suppressHydrationWarning />
+        <ProductCarousel  />
       </div>
     </SidebarDemo>
   );

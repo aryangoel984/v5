@@ -16,23 +16,22 @@ datasource db {
 
 model Product {
   id             Int          @id @default(autoincrement())
-  name           String       @unique
+  name           String       
   description    String?
   price          Float
-  sku            String       @unique // Stock Keeping Unit
+  sku            String        // Stock Keeping Unit
   stockQuantity  Int          // Available stock
   sellerId       Int
   categoryId     Int
-  attributes     Json?        // Dynamic attributes (e.g., color, size) // ** No Need for Attribute as already using specification and varients 
   createdAt      DateTime     @default(now())
   updatedAt      DateTime     @updatedAt
 
   seller         Seller       @relation(fields: [sellerId], references: [id])
   category       Category     @relation(fields: [categoryId], references: [id])
-  reviews        Review[]
-  images         Image[]      // Relation to images
-  variants       Variant[]    // Relation to product variants
-  specifications Specification? // Relation to product specifications
+  reviews        Review[]     
+  images         Image[]      
+  variants       Variant[]    
+  specifications Specification[] // Relation to product specifications
 }
 
 model Seller {
@@ -65,7 +64,7 @@ model Review {
   rating         Int          // Rating out of 5
   createdAt      DateTime     @default(now())
 
-  product        Product      @relation(fields: [productId], references: [id])
+  product        Product      @relation(fields: [productId], references: [id], onDelete: Cascade)
 }
 
 model Image {
@@ -74,25 +73,26 @@ model Image {
   alt            String?      // Alt text for accessibility
   productId      Int
 
-  product        Product      @relation(fields: [productId], references: [id])
+  product        Product      @relation(fields: [productId], references: [id], onDelete: Cascade)
 }
 
 model Variant {
   id             Int          @id @default(autoincrement())
-  sku            String       @unique // Stock Keeping Unit for the variant
+  sku            String       // Stock Keeping Unit for the variant
   name           String       // Variant name (e.g., "55 inch")
   price          Float        // Price for the specific variant
   productId      Int
 
-  product        Product      @relation(fields: [productId], references: [id])
+  product        Product      @relation(fields: [productId], references: [id], onDelete: Cascade)
 }
 
 model Specification {
   id             Int     @id @default(autoincrement())
-  productId      Int     @unique // Ensure one-to-one relationship
-  data           Json    // Key-value pairs for specifications (e.g., JSON format)
+  productId      Int     
+  type           String  
+  description    String
 
-  product        Product @relation(fields: [productId], references: [id])
+  product        Product @relation(fields: [productId], references: [id], onDelete: Cascade)
 }
 
 model ContactUs {

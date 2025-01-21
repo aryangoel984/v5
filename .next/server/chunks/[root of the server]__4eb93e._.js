@@ -71,35 +71,49 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
 async function POST(request) {
     try {
+        console.log('Request Headers:', request.headers);
+        // Attempt to parse the request body
         const body = await request.json();
-        const { name, description, price, sku, stockQuantity, sellerId, categoryId, attributes, createdAt, updatedAt } = body;
-        // Input validation
-        if (!name || !sku || !price || !sellerId || !categoryId) {
+        console.log('Received Payload:', body);
+        // Extract fields
+        const { name, description, price, sku, stockQuantity, sellerId, categoryId, createdAt, updatedAt } = body;
+        // Validate required fields
+        if (!name || !sku || price === undefined || !sellerId || !categoryId) {
+            console.error('Validation Error: Missing required fields');
             return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$1$2e$4_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
                 error: 'Missing required fields'
             }, {
                 status: 400
             });
         }
-        // Check if seller and category exist
+        // Check for related entities in the database
         const sellerExists = await prisma.seller.findUnique({
             where: {
                 id: sellerId
             }
         });
+        if (!sellerExists) {
+            console.error('Error: Seller not found');
+            return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$1$2e$4_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+                error: 'Seller not found'
+            }, {
+                status: 404
+            });
+        }
         const categoryExists = await prisma.category.findUnique({
             where: {
                 id: categoryId
             }
         });
-        if (!sellerExists || !categoryExists) {
+        if (!categoryExists) {
+            console.error('Error: Category not found');
             return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$1$2e$4_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-                error: 'Invalid sellerId or categoryId'
+                error: 'Category not found'
             }, {
                 status: 404
             });
         }
-        // Create the product
+        // Attempt to create the product
         const newProduct = await prisma.product.create({
             data: {
                 name,
@@ -109,18 +123,18 @@ async function POST(request) {
                 stockQuantity,
                 sellerId,
                 categoryId,
-                attributes,
                 createdAt: createdAt ? new Date(createdAt) : undefined,
                 updatedAt: updatedAt ? new Date(updatedAt) : undefined
             }
         });
+        console.log('Product Created:', newProduct);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$1$2e$4_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(newProduct, {
             status: 201
         });
     } catch (error) {
-        console.error('Error creating product:', error);
+        console.error('Error Details:', error);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$1$2e$4_react$2d$dom$40$19$2e$0$2e$0_react$40$19$2e$0$2e$0_$5f$react$40$19$2e$0$2e$0$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-            error: error.message || 'Error creating product'
+            error: 'Invalid JSON payload or internal server error'
         }, {
             status: 500
         });

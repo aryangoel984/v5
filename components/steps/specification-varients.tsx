@@ -15,7 +15,7 @@ interface Specification {
 interface Variant {
   sku: string
   name: string
-  price: string
+  price: string | null
 }
 
 export default function SpecificationsVariants({ formData, handleInputChange }) {
@@ -23,37 +23,45 @@ export default function SpecificationsVariants({ formData, handleInputChange }) 
     { type: '', description: '' }
   ])
   const [variants, setVariants] = useState<Variant[]>([
-    { sku: '', name: '', price: '' }
+    { sku: '', name: '', price: null }
   ])
 
   const addSpecification = () => {
-    setSpecifications([...specifications, { type: '', description: '' }])
+    const updatedSpecifications = [...specifications, { type: '', description: '' }]
+    setSpecifications(updatedSpecifications)
+    handleInputChange('specifications', updatedSpecifications)
   }
 
   const removeSpecification = (index: number) => {
-    setSpecifications(specifications.filter((_, i) => i !== index))
+    const updatedSpecifications = specifications.filter((_, i) => i !== index)
+    setSpecifications(updatedSpecifications)
+    handleInputChange('specifications', updatedSpecifications)
   }
 
   const updateSpecification = (index: number, field: keyof Specification, value: string) => {
-    const newSpecifications = [...specifications]
-    newSpecifications[index][field] = value
-    setSpecifications(newSpecifications)
-    handleInputChange('specifications', newSpecifications)
+    const updatedSpecifications = [...specifications]
+    updatedSpecifications[index][field] = value
+    setSpecifications(updatedSpecifications)
+    handleInputChange('specifications', updatedSpecifications)
   }
 
   const addVariant = () => {
-    setVariants([...variants, { sku: '', name: '', price: '' }])
+    const updatedVariants = [...variants, { sku: '', name: '', price: null }]
+    setVariants(updatedVariants)
+    handleInputChange('variants', updatedVariants)
   }
 
   const removeVariant = (index: number) => {
-    setVariants(variants.filter((_, i) => i !== index))
+    const updatedVariants = variants.filter((_, i) => i !== index)
+    setVariants(updatedVariants)
+    handleInputChange('variants', updatedVariants)
   }
 
   const updateVariant = (index: number, field: keyof Variant, value: string) => {
-    const newVariants = [...variants]
-    newVariants[index][field] = value
-    setVariants(newVariants)
-    handleInputChange('variants', newVariants)
+    const updatedVariants = [...variants]
+    updatedVariants[index][field] = value
+    setVariants(updatedVariants)
+    handleInputChange('variants', updatedVariants)
   }
 
   return (
@@ -79,7 +87,9 @@ export default function SpecificationsVariants({ formData, handleInputChange }) 
                     <Input
                       id={`type-${index}`}
                       value={spec.type}
-                      onChange={(e) => updateSpecification(index, 'type', e.target.value)}
+                      onChange={(e) =>
+                        updateSpecification(index, 'type', e.target.value)
+                      }
                       placeholder="e.g., Material"
                     />
                   </div>
@@ -88,7 +98,9 @@ export default function SpecificationsVariants({ formData, handleInputChange }) 
                     <Input
                       id={`description-${index}`}
                       value={spec.description}
-                      onChange={(e) => updateSpecification(index, 'description', e.target.value)}
+                      onChange={(e) =>
+                        updateSpecification(index, 'description', e.target.value)
+                      }
                       placeholder="e.g., Premium leather"
                     />
                   </div>
@@ -147,7 +159,7 @@ export default function SpecificationsVariants({ formData, handleInputChange }) 
                     <Label htmlFor={`price-${index}`}>Price</Label>
                     <Input
                       id={`price-${index}`}
-                      value={variant.price}
+                      value={variant.price || ''}
                       onChange={(e) => updateVariant(index, 'price', e.target.value)}
                       placeholder="e.g., 199.99"
                       type="number"
@@ -174,4 +186,3 @@ export default function SpecificationsVariants({ formData, handleInputChange }) 
     </div>
   )
 }
-

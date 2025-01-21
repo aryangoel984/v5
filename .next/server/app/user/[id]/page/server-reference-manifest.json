@@ -1,4 +1,49 @@
 {
-  "node": {},
+  "node": {
+    "7f772fb86f12227c8b1ee86829e536f9a05ea33469": {
+      "workers": {
+        "app/user/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/user/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/.pnpm/@clerk+nextjs@6.9.14_next@15.1.4_react-dom@19.0.0_react@19.0.0__react@19.0.0__react-dom@19.0._daqgmhlvx3ydhjkoj2cfrzzepa/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/.pnpm/@clerk+nextjs@6.9.14_next@15.1.4_react-dom@19.0.0_react@19.0.0__react@19.0.0__react-dom@19.0._daqgmhlvx3ydhjkoj2cfrzzepa/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/app/user/[id]/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/user/[id]/page": "action-browser"
+      }
+    },
+    "7f1dc510a9263ac1d96ff53d5b9ceae0b75c4f2f14": {
+      "workers": {
+        "app/user/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/user/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/.pnpm/@clerk+nextjs@6.9.14_next@15.1.4_react-dom@19.0.0_react@19.0.0__react@19.0.0__react-dom@19.0._daqgmhlvx3ydhjkoj2cfrzzepa/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/.pnpm/@clerk+nextjs@6.9.14_next@15.1.4_react-dom@19.0.0_react@19.0.0__react@19.0.0__react-dom@19.0._daqgmhlvx3ydhjkoj2cfrzzepa/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/app/user/[id]/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/user/[id]/page": "action-browser"
+      }
+    },
+    "7f24fbad0a42d364c30742d520ac4b2f66714a591d": {
+      "workers": {
+        "app/user/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/user/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/.pnpm/@clerk+nextjs@6.9.14_next@15.1.4_react-dom@19.0.0_react@19.0.0__react@19.0.0__react-dom@19.0._daqgmhlvx3ydhjkoj2cfrzzepa/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/.pnpm/@clerk+nextjs@6.9.14_next@15.1.4_react-dom@19.0.0_react@19.0.0__react@19.0.0__react-dom@19.0._daqgmhlvx3ydhjkoj2cfrzzepa/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/app/user/[id]/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/user/[id]/page": "action-browser"
+      }
+    },
+    "7f442ebc1789c938ea244d650b1654b07da2d2bf4c": {
+      "workers": {
+        "app/user/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/user/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/node_modules/.pnpm/@clerk+nextjs@6.9.14_next@15.1.4_react-dom@19.0.0_react@19.0.0__react@19.0.0__react-dom@19.0._daqgmhlvx3ydhjkoj2cfrzzepa/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/node_modules/.pnpm/@clerk+nextjs@6.9.14_next@15.1.4_react-dom@19.0.0_react@19.0.0__react@19.0.0__react-dom@19.0._daqgmhlvx3ydhjkoj2cfrzzepa/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/app/user/[id]/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/user/[id]/page": "rsc"
+      }
+    }
+  },
   "edge": {}
 }

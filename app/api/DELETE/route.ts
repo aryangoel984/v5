@@ -1,45 +1,35 @@
+// pages/api/products/delete.ts
+
 import { PrismaClient } from '@prisma/client';
 import { NextResponse } from 'next/server';
 
 const prisma = new PrismaClient();
 
-export async function DELETE(request) {
+export async function DELETE(req: Request) {
   try {
-    const body = await request.json(); // Parse the raw JSON body
+    // Parse the JSON body to extract the product ID
+    const { id } = await req.json();
 
-    if (!body || typeof body !== 'object') {
-      return NextResponse.json({ error: 'Invalid request body. Must be a JSON object.' }, { status: 400 });
+    if (!id) {
+      return NextResponse.json({ error: 'Product ID is required' }, { status: 400 });
     }
 
-    const { id } = body;
+    // Find the product first to ensure it exists
+    const product = await prisma.product.findUnique({
+      where: { id: Number(id) },
+    });
 
-    // Validate `id`
-    if (!id || typeof id !== 'number') {
-      return NextResponse.json({ error: 'Product ID must be a valid number' }, { status: 400 });
-    }
-
-    console.log('Deleting product with ID:', id);
-
-    // Check if the product exists
-    const productExists = await prisma.product.findUnique({ where: { id } });
-    if (!productExists) {
+    if (!product) {
       return NextResponse.json({ error: 'Product not found' }, { status: 404 });
     }
 
     // Delete the product
     await prisma.product.delete({
-      where: { id },
+      where: { id: (id) },
     });
 
-    console.log('Product deleted successfully:', id);
-
-    return NextResponse.json({ message: `Product with ID ${id} deleted successfully.` }, { status: 200 });
+    return NextResponse.json({ message: 'Product deleted successfully' }, { status: 200 });
   } catch (error) {
-    console.error('Error deleting product:', error);
-
-    return NextResponse.json(
-      { error: error.message || 'An unknown error occurred' },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: 'Something went wrong' }, { status: 500 });
   }
 }
